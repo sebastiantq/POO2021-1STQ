@@ -68,6 +68,7 @@ int View::mostrarMenu()
     cout << "5. Agregar Triangulos" << std::endl;
     cout << "6. Mostrar Triangulos" << std::endl;
     cout << "7. [Todos] Mostrar todas figuras" << std::endl;
+    cout << "8. Llenar lista figuras" << std::endl;
     cout << "11. Caso para pruebas" << std::endl;
     cout << "0. Salir\n"
          << std::endl;
@@ -95,6 +96,9 @@ void View::verPrincipal()
             break;
         case 7:
             mostrarTodos();
+            break;
+        case 8:
+            controller.llenarListaFiguras();
             break;
         case 11:
         {

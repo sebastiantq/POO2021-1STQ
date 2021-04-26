@@ -5,6 +5,7 @@
 #include "../Model/Circulo.h"
 #include "../Model/Triangulo.h"
 #include "../Model/Rectangulo.h"
+#include "../Model/Cuadrado.h"
 
 #include <iostream>
 #include <list>
@@ -22,6 +23,8 @@ private:
     list<Rectangulo> listaRectangulo;
     list<Circulo> listaCirculo;
     list<Triangulo> listaTriangulo;
+    list<Cuadrado> listaCuadrado;
+    list<FiguraGeometrica *> listaFigurasGeometricas;
 
 public:
     // Retorna referencia a la lista de rectangulos
@@ -29,16 +32,19 @@ public:
     void agregarRectagulo(float largo, float ancho);
 
     /**
-       * Retorna la referencia al rectangulo que tenga el mayor ancho       
+       * Retorna la referencia al rectangulo que tenga el mayor ancho
        *
     */
     Rectangulo &encontrarMayorAncho();
+    void llenarListaFiguras();
+    list<FiguraGeometrica *> &getListaFiguras();
 
     // TO-DO
 
     list<Rectangulo> &getListaCirculo();
     void agregarTriagulo(float base, float altura);
     void agregarCirculo(float radio);
+    void agregarCuadrado(float lado);
 };
 //#define FIGURAS_CONTROLLER_H
 #endif // FIGURASCONTROLLER_H

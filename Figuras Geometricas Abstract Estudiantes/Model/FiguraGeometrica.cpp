@@ -4,6 +4,7 @@ FiguraGeometrica::FiguraGeometrica()
     : color("Rojo"), area(0.0), perimetro(0.0)
 {
 }
+
 FiguraGeometrica::FiguraGeometrica(string color)
     : FiguraGeometrica()
 {

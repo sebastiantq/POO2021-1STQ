@@ -22,8 +22,8 @@ private: //atributos
 public:
     Circulo(); //NO OLVIDAR
     Circulo(float);
-    virtual void calcularArea() override;
-    virtual void calcularPerimetro() override;
+    virtual void calcularArea();
+    virtual void calcularPerimetro();
     virtual void mostrarFigura();
     float getRadio() const;
     void setRadio(float);

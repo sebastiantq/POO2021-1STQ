@@ -32,6 +32,7 @@ void Circulo::calcularPerimetro()
 
 void Circulo::mostrarFigura()
 {
+    cout << "El radio: " << radio << endl;
 }
 
 float Circulo::getRadio() const

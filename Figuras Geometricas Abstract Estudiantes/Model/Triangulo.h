@@ -22,8 +22,13 @@ private:
 public:
     Triangulo();
     Triangulo(float base, float altura);
-    void calcularArea();
-    void calcularPerimetro();
+    virtual void calcularArea();
+    virtual void calcularPerimetro();
+    virtual void mostrarFigura();
+    float getBase() const;
+    float getAltura() const;
+    void setBase(float);
+    void setAltura(float);
 };
 
 //#endif /* !TRIANGULO_H */

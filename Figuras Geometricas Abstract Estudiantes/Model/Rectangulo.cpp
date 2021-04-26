@@ -2,11 +2,12 @@
 
 //CONSTRUCTORES RECTANGULO
 
-Rectangulo::Rectangulo() {}
+Rectangulo::Rectangulo()
+{
+}
 
 Rectangulo::Rectangulo(float ancho, float largo)
 {
-
     this->ancho = ancho;
     this->largo = largo;
 }
@@ -33,12 +34,12 @@ void Rectangulo::mostrarFigura()
          << "el largo: " << largo << endl;
 }
 
-float Rectangulo::getAncho()
+float Rectangulo::getAncho() const
 {
     return this->ancho;
 }
 
-float Rectangulo::getLargo()
+float Rectangulo::getLargo() const
 {
     return this->largo;
 }
@@ -47,6 +48,7 @@ void Rectangulo::setAncho(float ancho)
 {
     this->ancho = ancho;
 }
+
 void Rectangulo::setLargo(float largo)
 {
     this->largo = largo;

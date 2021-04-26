@@ -67,3 +67,21 @@ Rectangulo &FigurasController::encontrarMayorAncho()
     // a fin de facilitar el manejo de los objetos posteriormente
     return *pRectanguloMayor;
 }
+
+void FigurasController::llenarListaFiguras()
+{
+    Rectangulo * pRectangulo = new Rectangulo(10, 20);
+    Circulo * pCirculo = new Circulo(5);
+    Cuadrado * pCuadrado = new Cuadrado(8);
+    Triangulo * pTriangulo = new Triangulo(20, 10);
+    
+    this->listaFigurasGeometricas.push_back( pRectangulo );
+    this->listaFigurasGeometricas.push_back( pCirculo );
+    this->listaFigurasGeometricas.push_back( pCuadrado );
+    this->listaFigurasGeometricas.push_back( pTriangulo );
+}
+
+list<FiguraGeometrica *> &FigurasController::getListaFiguras()
+{
+    return listaFigurasGeometricas;
+}

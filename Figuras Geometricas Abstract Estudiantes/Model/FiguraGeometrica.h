@@ -27,6 +27,9 @@ public:
     void setColor(string);
     float getArea() const;
     float getPerimetro() const;
+    virtual void calcularArea() = 0;
+    virtual void calcularPerimetro() = 0;
+    virtual void mostrarFigura() = 0;
 };
 
 #endif /* !FIGURA_GEOMETRICA_H */
