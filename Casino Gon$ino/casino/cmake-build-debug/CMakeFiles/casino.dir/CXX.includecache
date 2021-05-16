@@ -1,0 +1,80 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Controller/Controller.cpp
+Controller.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Controller/Controller.h
+../Model/Mayor13.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Mayor13.h
+../Model/DosColores.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/DosColores.h
+../Model/Ruleta.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Ruleta.h
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Controller/Controller.h
+../Model/Jugador.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Jugador.h
+../Model/Casino.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Casino.h
+iostream
+-
+list
+-
+map
+-
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Casino.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+Juego.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Juego.h
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/DosColores.h
+Juego.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Juego.h
+cstdlib
+-
+ctime
+-
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Juego.h
+Jugador.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Jugador.h
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Jugador.h
+iostream
+-
+string
+-
+wchar.h
+-
+locale.h
+-
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Mayor13.h
+Juego.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Juego.h
+cstdlib
+-
+ctime
+-
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Ruleta.h
+Juego.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Casino Gon$ino/casino/Model/Juego.h
+cstdlib
+-
+ctime
+-
+
