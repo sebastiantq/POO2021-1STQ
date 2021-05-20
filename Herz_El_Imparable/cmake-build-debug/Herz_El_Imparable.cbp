@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Herz_El_Imparable"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Herz_El_Imparable">
+				<Option output="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-debug/Herz_El_Imparable.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 Herz_El_Imparable"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Herz_El_Imparable/fast">
+				<Option output="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-debug/Herz_El_Imparable.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 Herz_El_Imparable/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Arma.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Arma.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/ArtefactoLegendario.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/ArtefactoLegendario.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Enemigo.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Enemigo.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Item.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Item.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Jugador.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Jugador.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Pared.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Pared.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Pocion.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Pocion.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/View/View.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/View/View.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/main.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
