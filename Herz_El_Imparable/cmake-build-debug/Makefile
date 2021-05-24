@@ -153,86 +153,248 @@ Controller\Controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.s
 .PHONY : Controller\Controller.cpp.s
 
-Model\Arma.obj: Model\Arma.cpp.obj
+Model\Entidades\Enemigos\Biter\Biter.obj: Model\Entidades\Enemigos\Biter\Biter.cpp.obj
 
-.PHONY : Model\Arma.obj
-
-# target to build an object file
-Model\Arma.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Arma.cpp.obj
-.PHONY : Model\Arma.cpp.obj
-
-Model\Arma.i: Model\Arma.cpp.i
-
-.PHONY : Model\Arma.i
-
-# target to preprocess a source file
-Model\Arma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Arma.cpp.i
-.PHONY : Model\Arma.cpp.i
-
-Model\Arma.s: Model\Arma.cpp.s
-
-.PHONY : Model\Arma.s
-
-# target to generate assembly for a file
-Model\Arma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Arma.cpp.s
-.PHONY : Model\Arma.cpp.s
-
-Model\ArtefactoLegendario.obj: Model\ArtefactoLegendario.cpp.obj
-
-.PHONY : Model\ArtefactoLegendario.obj
+.PHONY : Model\Entidades\Enemigos\Biter\Biter.obj
 
 # target to build an object file
-Model\ArtefactoLegendario.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\ArtefactoLegendario.cpp.obj
-.PHONY : Model\ArtefactoLegendario.cpp.obj
+Model\Entidades\Enemigos\Biter\Biter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Biter\Biter.cpp.obj
+.PHONY : Model\Entidades\Enemigos\Biter\Biter.cpp.obj
 
-Model\ArtefactoLegendario.i: Model\ArtefactoLegendario.cpp.i
+Model\Entidades\Enemigos\Biter\Biter.i: Model\Entidades\Enemigos\Biter\Biter.cpp.i
 
-.PHONY : Model\ArtefactoLegendario.i
+.PHONY : Model\Entidades\Enemigos\Biter\Biter.i
 
 # target to preprocess a source file
-Model\ArtefactoLegendario.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\ArtefactoLegendario.cpp.i
-.PHONY : Model\ArtefactoLegendario.cpp.i
+Model\Entidades\Enemigos\Biter\Biter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Biter\Biter.cpp.i
+.PHONY : Model\Entidades\Enemigos\Biter\Biter.cpp.i
 
-Model\ArtefactoLegendario.s: Model\ArtefactoLegendario.cpp.s
+Model\Entidades\Enemigos\Biter\Biter.s: Model\Entidades\Enemigos\Biter\Biter.cpp.s
 
-.PHONY : Model\ArtefactoLegendario.s
+.PHONY : Model\Entidades\Enemigos\Biter\Biter.s
 
 # target to generate assembly for a file
-Model\ArtefactoLegendario.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\ArtefactoLegendario.cpp.s
-.PHONY : Model\ArtefactoLegendario.cpp.s
+Model\Entidades\Enemigos\Biter\Biter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Biter\Biter.cpp.s
+.PHONY : Model\Entidades\Enemigos\Biter\Biter.cpp.s
 
-Model\Enemigo.obj: Model\Enemigo.cpp.obj
+Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.obj: Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.obj
 
-.PHONY : Model\Enemigo.obj
+.PHONY : Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.obj
 
 # target to build an object file
-Model\Enemigo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Enemigo.cpp.obj
-.PHONY : Model\Enemigo.cpp.obj
+Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.obj
+.PHONY : Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.obj
 
-Model\Enemigo.i: Model\Enemigo.cpp.i
+Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.i: Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.i
 
-.PHONY : Model\Enemigo.i
+.PHONY : Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.i
 
 # target to preprocess a source file
-Model\Enemigo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Enemigo.cpp.i
-.PHONY : Model\Enemigo.cpp.i
+Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.i
+.PHONY : Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.i
 
-Model\Enemigo.s: Model\Enemigo.cpp.s
+Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.s: Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.s
 
-.PHONY : Model\Enemigo.s
+.PHONY : Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.s
 
 # target to generate assembly for a file
-Model\Enemigo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Enemigo.cpp.s
-.PHONY : Model\Enemigo.cpp.s
+Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.s
+.PHONY : Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.s
+
+Model\Entidades\Enemigos\Enemigo.obj: Model\Entidades\Enemigos\Enemigo.cpp.obj
+
+.PHONY : Model\Entidades\Enemigos\Enemigo.obj
+
+# target to build an object file
+Model\Entidades\Enemigos\Enemigo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Enemigo.cpp.obj
+.PHONY : Model\Entidades\Enemigos\Enemigo.cpp.obj
+
+Model\Entidades\Enemigos\Enemigo.i: Model\Entidades\Enemigos\Enemigo.cpp.i
+
+.PHONY : Model\Entidades\Enemigos\Enemigo.i
+
+# target to preprocess a source file
+Model\Entidades\Enemigos\Enemigo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Enemigo.cpp.i
+.PHONY : Model\Entidades\Enemigos\Enemigo.cpp.i
+
+Model\Entidades\Enemigos\Enemigo.s: Model\Entidades\Enemigos\Enemigo.cpp.s
+
+.PHONY : Model\Entidades\Enemigos\Enemigo.s
+
+# target to generate assembly for a file
+Model\Entidades\Enemigos\Enemigo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Enemigo.cpp.s
+.PHONY : Model\Entidades\Enemigos\Enemigo.cpp.s
+
+Model\Entidades\Enemigos\HauntedWater\HauntedWater.obj: Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.obj
+
+.PHONY : Model\Entidades\Enemigos\HauntedWater\HauntedWater.obj
+
+# target to build an object file
+Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.obj
+.PHONY : Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.obj
+
+Model\Entidades\Enemigos\HauntedWater\HauntedWater.i: Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.i
+
+.PHONY : Model\Entidades\Enemigos\HauntedWater\HauntedWater.i
+
+# target to preprocess a source file
+Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.i
+.PHONY : Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.i
+
+Model\Entidades\Enemigos\HauntedWater\HauntedWater.s: Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.s
+
+.PHONY : Model\Entidades\Enemigos\HauntedWater\HauntedWater.s
+
+# target to generate assembly for a file
+Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.s
+.PHONY : Model\Entidades\Enemigos\HauntedWater\HauntedWater.cpp.s
+
+Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.obj: Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.obj
+
+.PHONY : Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.obj
+
+# target to build an object file
+Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.obj
+.PHONY : Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.obj
+
+Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.i: Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.i
+
+.PHONY : Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.i
+
+# target to preprocess a source file
+Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.i
+.PHONY : Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.i
+
+Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.s: Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.s
+
+.PHONY : Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.s
+
+# target to generate assembly for a file
+Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.s
+.PHONY : Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.s
+
+Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.obj: Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.obj
+
+.PHONY : Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.obj
+
+# target to build an object file
+Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.obj
+.PHONY : Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.obj
+
+Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.i: Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.i
+
+.PHONY : Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.i
+
+# target to preprocess a source file
+Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.i
+.PHONY : Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.i
+
+Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.s: Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.s
+
+.PHONY : Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.s
+
+# target to generate assembly for a file
+Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.s
+.PHONY : Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.s
+
+Model\Entidades\Enemigos\Troll\Troll.obj: Model\Entidades\Enemigos\Troll\Troll.cpp.obj
+
+.PHONY : Model\Entidades\Enemigos\Troll\Troll.obj
+
+# target to build an object file
+Model\Entidades\Enemigos\Troll\Troll.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\Troll.cpp.obj
+.PHONY : Model\Entidades\Enemigos\Troll\Troll.cpp.obj
+
+Model\Entidades\Enemigos\Troll\Troll.i: Model\Entidades\Enemigos\Troll\Troll.cpp.i
+
+.PHONY : Model\Entidades\Enemigos\Troll\Troll.i
+
+# target to preprocess a source file
+Model\Entidades\Enemigos\Troll\Troll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\Troll.cpp.i
+.PHONY : Model\Entidades\Enemigos\Troll\Troll.cpp.i
+
+Model\Entidades\Enemigos\Troll\Troll.s: Model\Entidades\Enemigos\Troll\Troll.cpp.s
+
+.PHONY : Model\Entidades\Enemigos\Troll\Troll.s
+
+# target to generate assembly for a file
+Model\Entidades\Enemigos\Troll\Troll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\Troll.cpp.s
+.PHONY : Model\Entidades\Enemigos\Troll\Troll.cpp.s
+
+Model\Entidades\Entidad.obj: Model\Entidades\Entidad.cpp.obj
+
+.PHONY : Model\Entidades\Entidad.obj
+
+# target to build an object file
+Model\Entidades\Entidad.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Entidad.cpp.obj
+.PHONY : Model\Entidades\Entidad.cpp.obj
+
+Model\Entidades\Entidad.i: Model\Entidades\Entidad.cpp.i
+
+.PHONY : Model\Entidades\Entidad.i
+
+# target to preprocess a source file
+Model\Entidades\Entidad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Entidad.cpp.i
+.PHONY : Model\Entidades\Entidad.cpp.i
+
+Model\Entidades\Entidad.s: Model\Entidades\Entidad.cpp.s
+
+.PHONY : Model\Entidades\Entidad.s
+
+# target to generate assembly for a file
+Model\Entidades\Entidad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Entidad.cpp.s
+.PHONY : Model\Entidades\Entidad.cpp.s
+
+Model\Entidades\Jugador\Jugador.obj: Model\Entidades\Jugador\Jugador.cpp.obj
+
+.PHONY : Model\Entidades\Jugador\Jugador.obj
+
+# target to build an object file
+Model\Entidades\Jugador\Jugador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.obj
+.PHONY : Model\Entidades\Jugador\Jugador.cpp.obj
+
+Model\Entidades\Jugador\Jugador.i: Model\Entidades\Jugador\Jugador.cpp.i
+
+.PHONY : Model\Entidades\Jugador\Jugador.i
+
+# target to preprocess a source file
+Model\Entidades\Jugador\Jugador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.i
+.PHONY : Model\Entidades\Jugador\Jugador.cpp.i
+
+Model\Entidades\Jugador\Jugador.s: Model\Entidades\Jugador\Jugador.cpp.s
+
+.PHONY : Model\Entidades\Jugador\Jugador.s
+
+# target to generate assembly for a file
+Model\Entidades\Jugador\Jugador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.s
+.PHONY : Model\Entidades\Jugador\Jugador.cpp.s
 
 Model\Espacio.obj: Model\Espacio.cpp.obj
 
@@ -261,140 +423,275 @@ Model\Espacio.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Espacio.cpp.s
 .PHONY : Model\Espacio.cpp.s
 
-Model\Item.obj: Model\Item.cpp.obj
+Model\Items\Armas\Arma.obj: Model\Items\Armas\Arma.cpp.obj
 
-.PHONY : Model\Item.obj
-
-# target to build an object file
-Model\Item.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Item.cpp.obj
-.PHONY : Model\Item.cpp.obj
-
-Model\Item.i: Model\Item.cpp.i
-
-.PHONY : Model\Item.i
-
-# target to preprocess a source file
-Model\Item.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Item.cpp.i
-.PHONY : Model\Item.cpp.i
-
-Model\Item.s: Model\Item.cpp.s
-
-.PHONY : Model\Item.s
-
-# target to generate assembly for a file
-Model\Item.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Item.cpp.s
-.PHONY : Model\Item.cpp.s
-
-Model\Jugador.obj: Model\Jugador.cpp.obj
-
-.PHONY : Model\Jugador.obj
+.PHONY : Model\Items\Armas\Arma.obj
 
 # target to build an object file
-Model\Jugador.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Jugador.cpp.obj
-.PHONY : Model\Jugador.cpp.obj
+Model\Items\Armas\Arma.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Arma.cpp.obj
+.PHONY : Model\Items\Armas\Arma.cpp.obj
 
-Model\Jugador.i: Model\Jugador.cpp.i
+Model\Items\Armas\Arma.i: Model\Items\Armas\Arma.cpp.i
 
-.PHONY : Model\Jugador.i
+.PHONY : Model\Items\Armas\Arma.i
 
 # target to preprocess a source file
-Model\Jugador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Jugador.cpp.i
-.PHONY : Model\Jugador.cpp.i
+Model\Items\Armas\Arma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Arma.cpp.i
+.PHONY : Model\Items\Armas\Arma.cpp.i
 
-Model\Jugador.s: Model\Jugador.cpp.s
+Model\Items\Armas\Arma.s: Model\Items\Armas\Arma.cpp.s
 
-.PHONY : Model\Jugador.s
+.PHONY : Model\Items\Armas\Arma.s
 
 # target to generate assembly for a file
-Model\Jugador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Jugador.cpp.s
-.PHONY : Model\Jugador.cpp.s
+Model\Items\Armas\Arma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Arma.cpp.s
+.PHONY : Model\Items\Armas\Arma.cpp.s
 
-Model\Mazmorra.obj: Model\Mazmorra.cpp.obj
+Model\Items\Armas\Espada\Espada.obj: Model\Items\Armas\Espada\Espada.cpp.obj
 
-.PHONY : Model\Mazmorra.obj
+.PHONY : Model\Items\Armas\Espada\Espada.obj
 
 # target to build an object file
-Model\Mazmorra.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra.cpp.obj
-.PHONY : Model\Mazmorra.cpp.obj
+Model\Items\Armas\Espada\Espada.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Espada\Espada.cpp.obj
+.PHONY : Model\Items\Armas\Espada\Espada.cpp.obj
 
-Model\Mazmorra.i: Model\Mazmorra.cpp.i
+Model\Items\Armas\Espada\Espada.i: Model\Items\Armas\Espada\Espada.cpp.i
 
-.PHONY : Model\Mazmorra.i
+.PHONY : Model\Items\Armas\Espada\Espada.i
 
 # target to preprocess a source file
-Model\Mazmorra.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra.cpp.i
-.PHONY : Model\Mazmorra.cpp.i
+Model\Items\Armas\Espada\Espada.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Espada\Espada.cpp.i
+.PHONY : Model\Items\Armas\Espada\Espada.cpp.i
 
-Model\Mazmorra.s: Model\Mazmorra.cpp.s
+Model\Items\Armas\Espada\Espada.s: Model\Items\Armas\Espada\Espada.cpp.s
 
-.PHONY : Model\Mazmorra.s
+.PHONY : Model\Items\Armas\Espada\Espada.s
 
 # target to generate assembly for a file
-Model\Mazmorra.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra.cpp.s
-.PHONY : Model\Mazmorra.cpp.s
+Model\Items\Armas\Espada\Espada.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Espada\Espada.cpp.s
+.PHONY : Model\Items\Armas\Espada\Espada.cpp.s
 
-Model\Pared.obj: Model\Pared.cpp.obj
+Model\Items\Armas\Hacha\Hacha.obj: Model\Items\Armas\Hacha\Hacha.cpp.obj
 
-.PHONY : Model\Pared.obj
+.PHONY : Model\Items\Armas\Hacha\Hacha.obj
 
 # target to build an object file
-Model\Pared.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Pared.cpp.obj
-.PHONY : Model\Pared.cpp.obj
+Model\Items\Armas\Hacha\Hacha.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Hacha\Hacha.cpp.obj
+.PHONY : Model\Items\Armas\Hacha\Hacha.cpp.obj
 
-Model\Pared.i: Model\Pared.cpp.i
+Model\Items\Armas\Hacha\Hacha.i: Model\Items\Armas\Hacha\Hacha.cpp.i
 
-.PHONY : Model\Pared.i
+.PHONY : Model\Items\Armas\Hacha\Hacha.i
 
 # target to preprocess a source file
-Model\Pared.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Pared.cpp.i
-.PHONY : Model\Pared.cpp.i
+Model\Items\Armas\Hacha\Hacha.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Hacha\Hacha.cpp.i
+.PHONY : Model\Items\Armas\Hacha\Hacha.cpp.i
 
-Model\Pared.s: Model\Pared.cpp.s
+Model\Items\Armas\Hacha\Hacha.s: Model\Items\Armas\Hacha\Hacha.cpp.s
 
-.PHONY : Model\Pared.s
+.PHONY : Model\Items\Armas\Hacha\Hacha.s
 
 # target to generate assembly for a file
-Model\Pared.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Pared.cpp.s
-.PHONY : Model\Pared.cpp.s
+Model\Items\Armas\Hacha\Hacha.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Hacha\Hacha.cpp.s
+.PHONY : Model\Items\Armas\Hacha\Hacha.cpp.s
 
-Model\Pocion.obj: Model\Pocion.cpp.obj
+Model\Items\ArtefactoLegendario.obj: Model\Items\ArtefactoLegendario.cpp.obj
 
-.PHONY : Model\Pocion.obj
+.PHONY : Model\Items\ArtefactoLegendario.obj
 
 # target to build an object file
-Model\Pocion.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Pocion.cpp.obj
-.PHONY : Model\Pocion.cpp.obj
+Model\Items\ArtefactoLegendario.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\ArtefactoLegendario.cpp.obj
+.PHONY : Model\Items\ArtefactoLegendario.cpp.obj
 
-Model\Pocion.i: Model\Pocion.cpp.i
+Model\Items\ArtefactoLegendario.i: Model\Items\ArtefactoLegendario.cpp.i
 
-.PHONY : Model\Pocion.i
+.PHONY : Model\Items\ArtefactoLegendario.i
 
 # target to preprocess a source file
-Model\Pocion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Pocion.cpp.i
-.PHONY : Model\Pocion.cpp.i
+Model\Items\ArtefactoLegendario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\ArtefactoLegendario.cpp.i
+.PHONY : Model\Items\ArtefactoLegendario.cpp.i
 
-Model\Pocion.s: Model\Pocion.cpp.s
+Model\Items\ArtefactoLegendario.s: Model\Items\ArtefactoLegendario.cpp.s
 
-.PHONY : Model\Pocion.s
+.PHONY : Model\Items\ArtefactoLegendario.s
 
 # target to generate assembly for a file
-Model\Pocion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Pocion.cpp.s
-.PHONY : Model\Pocion.cpp.s
+Model\Items\ArtefactoLegendario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\ArtefactoLegendario.cpp.s
+.PHONY : Model\Items\ArtefactoLegendario.cpp.s
+
+Model\Items\Item.obj: Model\Items\Item.cpp.obj
+
+.PHONY : Model\Items\Item.obj
+
+# target to build an object file
+Model\Items\Item.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Item.cpp.obj
+.PHONY : Model\Items\Item.cpp.obj
+
+Model\Items\Item.i: Model\Items\Item.cpp.i
+
+.PHONY : Model\Items\Item.i
+
+# target to preprocess a source file
+Model\Items\Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Item.cpp.i
+.PHONY : Model\Items\Item.cpp.i
+
+Model\Items\Item.s: Model\Items\Item.cpp.s
+
+.PHONY : Model\Items\Item.s
+
+# target to generate assembly for a file
+Model\Items\Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Item.cpp.s
+.PHONY : Model\Items\Item.cpp.s
+
+Model\Items\Pociones\Curacion\Curacion.obj: Model\Items\Pociones\Curacion\Curacion.cpp.obj
+
+.PHONY : Model\Items\Pociones\Curacion\Curacion.obj
+
+# target to build an object file
+Model\Items\Pociones\Curacion\Curacion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Curacion\Curacion.cpp.obj
+.PHONY : Model\Items\Pociones\Curacion\Curacion.cpp.obj
+
+Model\Items\Pociones\Curacion\Curacion.i: Model\Items\Pociones\Curacion\Curacion.cpp.i
+
+.PHONY : Model\Items\Pociones\Curacion\Curacion.i
+
+# target to preprocess a source file
+Model\Items\Pociones\Curacion\Curacion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Curacion\Curacion.cpp.i
+.PHONY : Model\Items\Pociones\Curacion\Curacion.cpp.i
+
+Model\Items\Pociones\Curacion\Curacion.s: Model\Items\Pociones\Curacion\Curacion.cpp.s
+
+.PHONY : Model\Items\Pociones\Curacion\Curacion.s
+
+# target to generate assembly for a file
+Model\Items\Pociones\Curacion\Curacion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Curacion\Curacion.cpp.s
+.PHONY : Model\Items\Pociones\Curacion\Curacion.cpp.s
+
+Model\Items\Pociones\Fuerza\Fuerza.obj: Model\Items\Pociones\Fuerza\Fuerza.cpp.obj
+
+.PHONY : Model\Items\Pociones\Fuerza\Fuerza.obj
+
+# target to build an object file
+Model\Items\Pociones\Fuerza\Fuerza.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Fuerza\Fuerza.cpp.obj
+.PHONY : Model\Items\Pociones\Fuerza\Fuerza.cpp.obj
+
+Model\Items\Pociones\Fuerza\Fuerza.i: Model\Items\Pociones\Fuerza\Fuerza.cpp.i
+
+.PHONY : Model\Items\Pociones\Fuerza\Fuerza.i
+
+# target to preprocess a source file
+Model\Items\Pociones\Fuerza\Fuerza.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Fuerza\Fuerza.cpp.i
+.PHONY : Model\Items\Pociones\Fuerza\Fuerza.cpp.i
+
+Model\Items\Pociones\Fuerza\Fuerza.s: Model\Items\Pociones\Fuerza\Fuerza.cpp.s
+
+.PHONY : Model\Items\Pociones\Fuerza\Fuerza.s
+
+# target to generate assembly for a file
+Model\Items\Pociones\Fuerza\Fuerza.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Fuerza\Fuerza.cpp.s
+.PHONY : Model\Items\Pociones\Fuerza\Fuerza.cpp.s
+
+Model\Items\Pociones\Pocion.obj: Model\Items\Pociones\Pocion.cpp.obj
+
+.PHONY : Model\Items\Pociones\Pocion.obj
+
+# target to build an object file
+Model\Items\Pociones\Pocion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Pocion.cpp.obj
+.PHONY : Model\Items\Pociones\Pocion.cpp.obj
+
+Model\Items\Pociones\Pocion.i: Model\Items\Pociones\Pocion.cpp.i
+
+.PHONY : Model\Items\Pociones\Pocion.i
+
+# target to preprocess a source file
+Model\Items\Pociones\Pocion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Pocion.cpp.i
+.PHONY : Model\Items\Pociones\Pocion.cpp.i
+
+Model\Items\Pociones\Pocion.s: Model\Items\Pociones\Pocion.cpp.s
+
+.PHONY : Model\Items\Pociones\Pocion.s
+
+# target to generate assembly for a file
+Model\Items\Pociones\Pocion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Pocion.cpp.s
+.PHONY : Model\Items\Pociones\Pocion.cpp.s
+
+Model\Mazmorra\Mazmorra.obj: Model\Mazmorra\Mazmorra.cpp.obj
+
+.PHONY : Model\Mazmorra\Mazmorra.obj
+
+# target to build an object file
+Model\Mazmorra\Mazmorra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj
+.PHONY : Model\Mazmorra\Mazmorra.cpp.obj
+
+Model\Mazmorra\Mazmorra.i: Model\Mazmorra\Mazmorra.cpp.i
+
+.PHONY : Model\Mazmorra\Mazmorra.i
+
+# target to preprocess a source file
+Model\Mazmorra\Mazmorra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.i
+.PHONY : Model\Mazmorra\Mazmorra.cpp.i
+
+Model\Mazmorra\Mazmorra.s: Model\Mazmorra\Mazmorra.cpp.s
+
+.PHONY : Model\Mazmorra\Mazmorra.s
+
+# target to generate assembly for a file
+Model\Mazmorra\Mazmorra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.s
+.PHONY : Model\Mazmorra\Mazmorra.cpp.s
+
+Model\Mazmorra\Pared.obj: Model\Mazmorra\Pared.cpp.obj
+
+.PHONY : Model\Mazmorra\Pared.obj
+
+# target to build an object file
+Model\Mazmorra\Pared.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Pared.cpp.obj
+.PHONY : Model\Mazmorra\Pared.cpp.obj
+
+Model\Mazmorra\Pared.i: Model\Mazmorra\Pared.cpp.i
+
+.PHONY : Model\Mazmorra\Pared.i
+
+# target to preprocess a source file
+Model\Mazmorra\Pared.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Pared.cpp.i
+.PHONY : Model\Mazmorra\Pared.cpp.i
+
+Model\Mazmorra\Pared.s: Model\Mazmorra\Pared.cpp.s
+
+.PHONY : Model\Mazmorra\Pared.s
+
+# target to generate assembly for a file
+Model\Mazmorra\Pared.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Pared.cpp.s
+.PHONY : Model\Mazmorra\Pared.cpp.s
 
 View\View.obj: View\View.cpp.obj
 
@@ -462,33 +759,66 @@ help:
 	@echo ... Controller/Controller.obj
 	@echo ... Controller/Controller.i
 	@echo ... Controller/Controller.s
-	@echo ... Model/Arma.obj
-	@echo ... Model/Arma.i
-	@echo ... Model/Arma.s
-	@echo ... Model/ArtefactoLegendario.obj
-	@echo ... Model/ArtefactoLegendario.i
-	@echo ... Model/ArtefactoLegendario.s
-	@echo ... Model/Enemigo.obj
-	@echo ... Model/Enemigo.i
-	@echo ... Model/Enemigo.s
+	@echo ... Model/Entidades/Enemigos/Biter/Biter.obj
+	@echo ... Model/Entidades/Enemigos/Biter/Biter.i
+	@echo ... Model/Entidades/Enemigos/Biter/Biter.s
+	@echo ... Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.obj
+	@echo ... Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.i
+	@echo ... Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.s
+	@echo ... Model/Entidades/Enemigos/Enemigo.obj
+	@echo ... Model/Entidades/Enemigos/Enemigo.i
+	@echo ... Model/Entidades/Enemigos/Enemigo.s
+	@echo ... Model/Entidades/Enemigos/HauntedWater/HauntedWater.obj
+	@echo ... Model/Entidades/Enemigos/HauntedWater/HauntedWater.i
+	@echo ... Model/Entidades/Enemigos/HauntedWater/HauntedWater.s
+	@echo ... Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.obj
+	@echo ... Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.i
+	@echo ... Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.s
+	@echo ... Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.obj
+	@echo ... Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.i
+	@echo ... Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.s
+	@echo ... Model/Entidades/Enemigos/Troll/Troll.obj
+	@echo ... Model/Entidades/Enemigos/Troll/Troll.i
+	@echo ... Model/Entidades/Enemigos/Troll/Troll.s
+	@echo ... Model/Entidades/Entidad.obj
+	@echo ... Model/Entidades/Entidad.i
+	@echo ... Model/Entidades/Entidad.s
+	@echo ... Model/Entidades/Jugador/Jugador.obj
+	@echo ... Model/Entidades/Jugador/Jugador.i
+	@echo ... Model/Entidades/Jugador/Jugador.s
 	@echo ... Model/Espacio.obj
 	@echo ... Model/Espacio.i
 	@echo ... Model/Espacio.s
-	@echo ... Model/Item.obj
-	@echo ... Model/Item.i
-	@echo ... Model/Item.s
-	@echo ... Model/Jugador.obj
-	@echo ... Model/Jugador.i
-	@echo ... Model/Jugador.s
-	@echo ... Model/Mazmorra.obj
-	@echo ... Model/Mazmorra.i
-	@echo ... Model/Mazmorra.s
-	@echo ... Model/Pared.obj
-	@echo ... Model/Pared.i
-	@echo ... Model/Pared.s
-	@echo ... Model/Pocion.obj
-	@echo ... Model/Pocion.i
-	@echo ... Model/Pocion.s
+	@echo ... Model/Items/Armas/Arma.obj
+	@echo ... Model/Items/Armas/Arma.i
+	@echo ... Model/Items/Armas/Arma.s
+	@echo ... Model/Items/Armas/Espada/Espada.obj
+	@echo ... Model/Items/Armas/Espada/Espada.i
+	@echo ... Model/Items/Armas/Espada/Espada.s
+	@echo ... Model/Items/Armas/Hacha/Hacha.obj
+	@echo ... Model/Items/Armas/Hacha/Hacha.i
+	@echo ... Model/Items/Armas/Hacha/Hacha.s
+	@echo ... Model/Items/ArtefactoLegendario.obj
+	@echo ... Model/Items/ArtefactoLegendario.i
+	@echo ... Model/Items/ArtefactoLegendario.s
+	@echo ... Model/Items/Item.obj
+	@echo ... Model/Items/Item.i
+	@echo ... Model/Items/Item.s
+	@echo ... Model/Items/Pociones/Curacion/Curacion.obj
+	@echo ... Model/Items/Pociones/Curacion/Curacion.i
+	@echo ... Model/Items/Pociones/Curacion/Curacion.s
+	@echo ... Model/Items/Pociones/Fuerza/Fuerza.obj
+	@echo ... Model/Items/Pociones/Fuerza/Fuerza.i
+	@echo ... Model/Items/Pociones/Fuerza/Fuerza.s
+	@echo ... Model/Items/Pociones/Pocion.obj
+	@echo ... Model/Items/Pociones/Pocion.i
+	@echo ... Model/Items/Pociones/Pocion.s
+	@echo ... Model/Mazmorra/Mazmorra.obj
+	@echo ... Model/Mazmorra/Mazmorra.i
+	@echo ... Model/Mazmorra/Mazmorra.s
+	@echo ... Model/Mazmorra/Pared.obj
+	@echo ... Model/Mazmorra/Pared.i
+	@echo ... Model/Mazmorra/Pared.s
 	@echo ... View/View.obj
 	@echo ... View/View.i
 	@echo ... View/View.s

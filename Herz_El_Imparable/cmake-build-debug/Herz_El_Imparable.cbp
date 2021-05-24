@@ -88,22 +88,58 @@
 		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Arma.cpp">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/Biter.cpp">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Arma.h">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/Biter.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/ArtefactoLegendario.cpp">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.cpp">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/ArtefactoLegendario.h">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Enemigo.cpp">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.cpp">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Enemigo.h">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/HauntedWater.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/HauntedWater.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/Troll.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/Troll.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
 		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.cpp">
@@ -112,34 +148,64 @@
 		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Item.cpp">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.cpp">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Item.h">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Jugador.cpp">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Espada/Espada.cpp">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Jugador.h">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Espada/Espada.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra.cpp">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Hacha/Hacha.cpp">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra.h">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Hacha/Hacha.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Pared.cpp">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/ArtefactoLegendario.cpp">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Pared.h">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/ArtefactoLegendario.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Pocion.cpp">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.cpp">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
-		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Pocion.h">
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Curacion/Curacion.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Curacion/Curacion.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Fuerza/Fuerza.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Fuerza/Fuerza.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra/Mazmorra.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra/Mazmorra.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra/Pared.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra/Pared.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
 		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/View/View.cpp">

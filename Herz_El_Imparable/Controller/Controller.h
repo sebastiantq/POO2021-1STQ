@@ -5,7 +5,7 @@
 #ifndef HERZ_EL_IMPARABLE_CONTROLLER_H
 #define HERZ_EL_IMPARABLE_CONTROLLER_H
 
-#include "../Model/Mazmorra.h"
+#include "../Model/Mazmorra/Mazmorra.h"
 #include <cstdio>
 #include <conio.h>
 

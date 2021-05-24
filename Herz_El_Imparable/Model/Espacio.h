@@ -19,7 +19,7 @@ using std::endl;
 using std::tuple;
 using std::get;
 
-enum Tipo { ESPACIO, PARED, ENEMIGO, JUGADOR };
+enum Tipo { ESPACIO, PARED, ENEMIGO, JEFE, JUGADOR, ARMA, POCION, ARTEFACTO_LEGENDARIO };
 
 class Espacio {
     protected:

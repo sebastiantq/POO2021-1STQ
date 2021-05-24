@@ -48,13 +48,11 @@ void Controller::teclaArriba() {
     tuple <int, int>posicion = mazmorra.getPosicionJugador(), posicionNueva(get<0>(posicion) + 1, get<1>(posicion));
 
     if(mazmorra.getEspacio(get<0>(posicion) + 1, get<1>(posicion))->getInteractivo()){
-        cout << "1" << endl;
         mazmorra.actualizarPosicionMazmorra(get<0>(posicion), get<1>(posicion), Espacio());
         mazmorra.actualizarPosicionMazmorra(get<0>(posicion) + 1, get<1>(posicion), Jugador());
         mazmorra.getEspacio(get<0>(posicion) + 1, get<1>(posicion))->setPosicion(posicionNueva);
     }else{
         // Realiza una interaccion con el objeto
-        cout << "2" << endl;
         return;
     }
 }
@@ -63,13 +61,11 @@ void Controller::teclaIzquierda() {
     tuple <int, int>posicion = mazmorra.getPosicionJugador(), posicionNueva(get<0>(posicion), get<1>(posicion) - 1);
 
     if(mazmorra.getEspacio(get<0>(posicion), get<1>(posicion) - 1)->getInteractivo()){
-        cout << "1" << endl;
         mazmorra.actualizarPosicionMazmorra(get<0>(posicion), get<1>(posicion), Espacio());
         mazmorra.actualizarPosicionMazmorra(get<0>(posicion), get<1>(posicion) - 1, Jugador());
         mazmorra.getEspacio(get<0>(posicion), get<1>(posicion) - 1)->setPosicion(posicionNueva);
     }else{
         // Realiza una interaccion con el objeto
-        cout << "2" << endl;
         return;
     }
 }
@@ -78,13 +74,11 @@ void Controller::teclaDerecha() {
     tuple <int, int>posicion = mazmorra.getPosicionJugador(), posicionNueva(get<0>(posicion), get<1>(posicion) + 1);
 
     if(mazmorra.getEspacio(get<0>(posicion), get<1>(posicion) + 1)->getInteractivo()){
-        cout << "1" << endl;
         mazmorra.actualizarPosicionMazmorra(get<0>(posicion), get<1>(posicion), Espacio());
         mazmorra.actualizarPosicionMazmorra(get<0>(posicion), get<1>(posicion) + 1, Jugador());
         mazmorra.getEspacio(get<0>(posicion), get<1>(posicion) + 1)->setPosicion(posicionNueva);
     }else{
         // Realiza una interaccion con el objeto
-        cout << "2" << endl;
         return;
     }
 }
@@ -93,13 +87,11 @@ void Controller::teclaAbajo() {
     tuple <int, int>posicion = mazmorra.getPosicionJugador(), posicionNueva(get<0>(posicion) - 1, get<1>(posicion));
 
     if(mazmorra.getEspacio(get<0>(posicion) - 1, get<1>(posicion))->getInteractivo()){
-        cout << "1" << endl;
         mazmorra.actualizarPosicionMazmorra(get<0>(posicion), get<1>(posicion), Espacio());
         mazmorra.actualizarPosicionMazmorra(get<0>(posicion) - 1, get<1>(posicion), Jugador());
         mazmorra.getEspacio(get<0>(posicion) - 1, get<1>(posicion))->setPosicion(posicionNueva);
     }else{
         // Realiza una interaccion con el objeto
-        cout << "2" << endl;
         return;
     }
 }
