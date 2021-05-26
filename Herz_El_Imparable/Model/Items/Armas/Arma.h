@@ -15,8 +15,8 @@ private:
     float dano, resistencia;
 public:
     Arma();
-    void interaccion() override;
     void setTipoArma(TipoArma nuevoTipoArma);
+    virtual bool interaccion() override;
     float getDano();
     float getResistencia();
     ~Arma();

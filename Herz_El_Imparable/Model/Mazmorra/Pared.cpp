@@ -6,7 +6,7 @@
 
 Pared::Pared() {
     tipo = PARED;
-    interactivo = false;
+    interactivo = true;
     checked = false;
     imagen = 'X';
 }

@@ -11,7 +11,7 @@ class Curacion : public Pocion{
     private:
     public:
         Curacion();
-        void interaccion() override;
+        virtual bool interaccion() override;
         ~Curacion();
 };
 

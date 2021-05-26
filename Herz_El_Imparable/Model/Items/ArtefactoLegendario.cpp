@@ -11,6 +11,12 @@ ArtefactoLegendario::ArtefactoLegendario(){
     checked = true;
 }
 
+bool ArtefactoLegendario::interaccion(){
+    cout << "¡Lo has logrado! Escapa por la nueva puerta que se ha generado para regresar a salvar a tu pueblo";
+
+    return true;
+}
+
 ArtefactoLegendario::~ArtefactoLegendario(){
 
 }

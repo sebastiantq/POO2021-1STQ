@@ -8,6 +8,14 @@ JefeHauntedWater::JefeHauntedWater(){
     setImagen('W');
 }
 
+bool JefeHauntedWater::interaccion(){
+    return false;
+}
+
+void JefeHauntedWater::atacar(int fila, int columna){
+
+}
+
 JefeHauntedWater::~JefeHauntedWater(){
 
 }

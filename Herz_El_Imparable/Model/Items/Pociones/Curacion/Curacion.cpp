@@ -12,8 +12,15 @@ Curacion::Curacion(){
     checked = true;
 }
 
-void Curacion::interaccion(){
+bool Curacion::interaccion(){
+    int opcion;
 
+    do{
+        cout << "Has encontrado una pocion de curacion, ¿deseas añadirla al inventario? (1. Si, 0. No): ";
+        cin >> opcion;
+    }while(opcion != 0 && opcion != 1);
+
+    return opcion;
 }
 
 Curacion::~Curacion(){

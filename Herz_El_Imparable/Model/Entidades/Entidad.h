@@ -15,7 +15,7 @@ class Entidad: public Espacio {
         Item inventario[10];
     public:
         Entidad();
-        void atacar(int fila, int columna);
+        virtual void atacar(int fila, int columna) = 0;
         int getPuntosVida();
         int getPuntosAtaque();
         void setPuntosVida();

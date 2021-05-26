@@ -8,6 +8,14 @@ Biter::Biter(){
     setImagen('b');
 }
 
+bool Biter::interaccion(){
+    return false;
+}
+
+void Biter::atacar(int fila, int columna){
+
+}
+
 Biter::~Biter(){
 
 }

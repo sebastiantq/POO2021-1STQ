@@ -7,11 +7,11 @@
 
 #include "../Espacio.h"
 
-class Item: public Espacio {
+class Item : public Espacio {
     private:
     public:
         Item();
-        virtual void interaccion();
+        virtual bool interaccion() override;
         ~Item();
 };
 

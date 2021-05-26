@@ -8,6 +8,14 @@ HauntedWater::HauntedWater(){
     setImagen('w');
 }
 
+bool HauntedWater::interaccion(){
+    return false;
+}
+
+void HauntedWater::atacar(int fila, int columna){
+
+}
+
 HauntedWater::~HauntedWater(){
 
 }

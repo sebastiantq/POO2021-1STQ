@@ -11,7 +11,7 @@ class Espada : public Arma{
     private:
     public:
         Espada();
-        void interaccion() override;
+        virtual bool interaccion() override;
         ~Espada();
 };
 

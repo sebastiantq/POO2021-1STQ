@@ -11,6 +11,7 @@ class ArtefactoLegendario: public Item {
     private:
     public:
         ArtefactoLegendario();
+        virtual bool interaccion() override;
         ~ArtefactoLegendario();
 };
 

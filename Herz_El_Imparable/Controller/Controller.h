@@ -17,12 +17,13 @@ class Controller {
         EstadoJuego estadoJuego;
     public:
         Controller();
+        void inicializarMazmorra(Dificultades dificultad);
+        void mostrarMazmorra(int desdeFila);
         void teclaArriba();
         void teclaIzquierda();
         void teclaDerecha();
         void teclaAbajo();
-        void inicializarMazmorra(Dificultades dificultad);
-        void mostrarMazmorra(int desdeFila);
+        void interactuar(int fila, int columna);
         void setEstadoJuego(EstadoJuego nuevoEstadoJuego);
         EstadoJuego getEstadoJuego();
 };

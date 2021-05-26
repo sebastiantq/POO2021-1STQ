@@ -11,7 +11,7 @@ class Hacha : public Arma {
     private:
     public:
         Hacha();
-        void interaccion() override;
+        virtual bool interaccion() override;
         ~Hacha();
 };
 

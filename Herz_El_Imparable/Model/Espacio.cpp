@@ -6,9 +6,14 @@
 
 Espacio::Espacio() {
     tipo = ESPACIO;
-    interactivo = true;
+    interactivo = false;
     checked = false;
     imagen = ' ';
+}
+
+bool Espacio::interaccion(){
+    cout << endl << "Interaccion con objeto Espacio" << endl;
+    return false;
 }
 
 void Espacio::setPosicion(tuple <int, int> nuevaPosicion){

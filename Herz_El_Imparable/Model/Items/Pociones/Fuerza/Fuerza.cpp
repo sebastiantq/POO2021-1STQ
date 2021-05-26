@@ -12,8 +12,15 @@ Fuerza::Fuerza(){
     checked = true;
 }
 
-void Fuerza::interaccion(){
+bool Fuerza::interaccion(){
+    int opcion;
 
+    do{
+        cout << "Has encontrado una pocion de fuerza, ¿deseas añadirla al inventario? (1. Si, 0. No): ";
+        cin >> opcion;
+    }while(opcion != 0 && opcion != 1);
+
+    return opcion;
 }
 
 Fuerza::~Fuerza(){

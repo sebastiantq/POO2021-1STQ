@@ -12,8 +12,15 @@ Espada::Espada(){
     checked = true;
 }
 
-void Espada::interaccion(){
+bool Espada::interaccion(){
+    int opcion;
 
+    do{
+        cout << "Has encontrado una espada, ¿deseas añadirla al inventario? (1. Si, 0. No): ";
+        cin >> opcion;
+    }while(opcion != 0 && opcion != 1);
+
+    return opcion;
 }
 
 Espada::~Espada(){

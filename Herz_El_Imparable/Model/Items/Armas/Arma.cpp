@@ -8,12 +8,13 @@ Arma::Arma(){
 
 }
 
-void Arma::interaccion(){
-
-}
-
 float Arma::getDano(){
     return 0;
+}
+
+bool Arma::interaccion(){
+    cout << endl << "Interaccion con arma" << endl;
+    return false;
 }
 
 float Arma::getResistencia(){

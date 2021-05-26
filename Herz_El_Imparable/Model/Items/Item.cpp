@@ -5,11 +5,12 @@
 #include "Item.h"
 
 Item::Item(){
-
+    setImagen('_');
 }
 
-void Item::interaccion(){
-
+bool Item::interaccion(){
+    cout << endl << "Interaccion con item" << endl;
+    return false;
 }
 
 Item::~Item(){

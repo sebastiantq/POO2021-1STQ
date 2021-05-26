@@ -8,6 +8,14 @@ JefeBiter::JefeBiter(){
     setImagen('B');
 }
 
+bool JefeBiter::interaccion(){
+    return false;
+}
+
+void JefeBiter::atacar(int fila, int columna){
+
+}
+
 JefeBiter::~JefeBiter(){
 
 }

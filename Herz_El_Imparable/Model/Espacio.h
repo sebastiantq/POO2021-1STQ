@@ -30,6 +30,7 @@ class Espacio {
         bool checked;
     public:
         Espacio();
+        virtual bool interaccion();
         void setPosicion(tuple <int, int>);
         void setTipo(Tipo nuevoTipo);
         void setImagen(char nuevaImagen);

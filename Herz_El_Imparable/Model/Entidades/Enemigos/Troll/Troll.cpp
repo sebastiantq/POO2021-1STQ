@@ -8,6 +8,14 @@ Troll::Troll(){
     setImagen('t');
 }
 
+bool Troll::interaccion(){
+    return false;
+}
+
+void Troll::atacar(int fila, int columna){
+
+}
+
 Troll::~Troll(){
 
 }

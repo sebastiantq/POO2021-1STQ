@@ -11,6 +11,8 @@ class JefeBiter : public Biter{
     private:
     public:
         JefeBiter();
+        virtual bool interaccion() override;
+        virtual void atacar(int fila, int columna) override;
         ~JefeBiter();
 };
 

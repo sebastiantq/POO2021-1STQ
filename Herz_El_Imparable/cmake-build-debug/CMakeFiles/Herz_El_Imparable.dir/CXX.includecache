@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.cpp
+Controller.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.h
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.h
+../Model/Mazmorra/Mazmorra.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra/Mazmorra.h
+cstdio
+-
+conio.h
+-
+
 C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/Biter.h
 ../Enemigo.h
 C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
@@ -109,4 +121,18 @@ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/
 C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Mazmorra/Pared.h
 ../Espacio.h
 C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/View/View.cpp
+View.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/View/View.h
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/View/View.h
+../Controller/Controller.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.h
+
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/main.cpp
+iostream
+-
+View/View.h
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/View/View.h
 

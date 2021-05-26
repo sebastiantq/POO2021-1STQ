@@ -12,8 +12,15 @@ Hacha::Hacha(){
     checked = true;
 }
 
-void Hacha::interaccion(){
+bool Hacha::interaccion(){
+    int opcion;
 
+    do{
+        cout << "Has encontrado un hacha, ¿deseas añadirla al inventario? (1. Si, 0. No): ";
+        cin >> opcion;
+    }while(opcion != 0 && opcion != 1);
+
+    return opcion;
 }
 
 Hacha::~Hacha(){

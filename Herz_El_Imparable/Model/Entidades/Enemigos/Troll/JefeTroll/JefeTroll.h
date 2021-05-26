@@ -11,6 +11,8 @@ class JefeTroll : public Troll{
     public:
     private:
         JefeTroll();
+        virtual bool interaccion() override;
+        virtual void atacar(int fila, int columna) override;
         ~JefeTroll();
 };
 

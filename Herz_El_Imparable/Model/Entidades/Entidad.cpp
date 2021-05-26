@@ -9,10 +9,6 @@ Entidad::Entidad(){
 
 }
 
-void Entidad::atacar(int fila, int columna){
-
-}
-
 int Entidad::getPuntosVida(){
     return 0;
 }

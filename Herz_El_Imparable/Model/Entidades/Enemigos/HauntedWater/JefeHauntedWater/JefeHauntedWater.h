@@ -11,6 +11,8 @@ class JefeHauntedWater : public HauntedWater{
     private:
     public:
         JefeHauntedWater();
+        virtual bool interaccion() override;
+        virtual void atacar(int fila, int columna) override;
         ~JefeHauntedWater();
 };
 

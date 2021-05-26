@@ -11,6 +11,8 @@ class Biter : public Enemigo {
     private:
     public:
         Biter();
+        virtual bool interaccion() override;
+        virtual void atacar(int fila, int columna) override;
         ~Biter();
 };
 

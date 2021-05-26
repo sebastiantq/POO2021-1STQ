@@ -11,7 +11,7 @@ class Fuerza : public Pocion{
     private:
     public:
         Fuerza();
-        void interaccion() override;
+        virtual bool interaccion() override;
         ~Fuerza();
 };
 

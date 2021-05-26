@@ -174,30 +174,32 @@ void View::escucharTeclas(){
                     desplegarMenuPausa();
                     controller.mostrarMazmorra(0);
                     break;
-                case 'H':
+                case 'w':
                     // ARRIBA
                     cout << endl << "ARRIBA" << endl;
                     controller.teclaArriba();
                     controller.mostrarMazmorra(0);
                     break;
-                case 'K':
+                case 'a':
                     // IZQUIERDA
                     cout << endl << "IZQUIERDA" << endl;
                     controller.teclaIzquierda();
                     controller.mostrarMazmorra(0);
                     break;
-                case 'M':
+                case 'd':
                     // DERECHA
                     cout << endl << "DERECHA" << endl;
                     controller.teclaDerecha();
                     controller.mostrarMazmorra(0);
                     break;
-                case 'P':
+                case 's':
                     // ABAJO
                     cout << endl << "ABAJO" << endl;
                     controller.teclaAbajo();
                     controller.mostrarMazmorra(0);
                     break;
+                default:
+                    cout << teclaPresionada << endl;
             }
         }
     } while (controller.getEstadoJuego() == JUGANDO);

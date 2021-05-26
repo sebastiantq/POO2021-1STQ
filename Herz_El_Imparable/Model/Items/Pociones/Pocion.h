@@ -14,9 +14,9 @@ class Pocion: public Item {
         TipoPocion tipoPocion;
     public:
         Pocion();
-        void interaccion() override;
         void consumir();
         void setTipoPocion(TipoPocion nuevoTipoPocion);
+        virtual bool interaccion() override;
         TipoPocion getTipoPocion();
         ~Pocion();
 };
