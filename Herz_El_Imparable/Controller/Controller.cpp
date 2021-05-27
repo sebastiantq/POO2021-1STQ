@@ -53,14 +53,6 @@ void Controller::interactuar(int fila, int columna){
         // Es un Item
         jugador->mostrarInventario();
 
-        Curacion* curacionPrueba = dynamic_cast<Curacion*>(mazmorra.getEspacio(fila, columna));
-
-        if(curacionPrueba != 0){
-            curacionPrueba->interaccion();
-        }else{
-            cout << "Paila";
-        }
-
         if(mazmorra.getEspacio(fila, columna)->interaccion()){
             posicionDisponibleInventario = jugador->getPosicionDisponibleInventario();
             if(get<0>(posicionDisponibleInventario) == 5 && get<1>(posicionDisponibleInventario) == 5){
@@ -70,8 +62,6 @@ void Controller::interactuar(int fila, int columna){
                 jugador->actualizarPosicionInventario(get<0>(posicionDisponibleInventario), get<1>(posicionDisponibleInventario), *mazmorra.getEspacio(fila, columna));
                 mazmorra.actualizarPosicionMazmorra(fila, columna, new Espacio());
             }
-        }else{
-            cout << mazmorra.getEspacio(fila, columna)->getTipo();
         }
     }else if(mazmorra.getEspacio(fila, columna)->getTipo() == ENEMIGO || mazmorra.getEspacio(fila, columna)->getTipo() == JEFE){
         // Es un Enemigo
@@ -80,10 +70,8 @@ void Controller::interactuar(int fila, int columna){
             jugador->actualizarPosicionInventario(get<1>(posicionDisponibleInventario), get<1>(posicionDisponibleInventario), *mazmorra.getEspacio(fila, columna));
             mazmorra.actualizarPosicionMazmorra(fila, columna, new Espacio());
         }else{
-            cout << "Interaccion con enemigo" << endl;
+            // Ha muerto Herz
         }
-    }else{
-        cout << "Objeto no interactivo" << endl;
     }
 }
 

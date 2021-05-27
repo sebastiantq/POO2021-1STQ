@@ -24,12 +24,12 @@ void Mazmorra::inicializarMazmorra(Dificultades dificultadMazmorra){
 
                 get<0>(posicionActual) = fila;
                 get<1>(posicionActual) = columna;
-                mazmorra[fila][columna].setPosicion(posicionActual);
+                mazmorra[fila][columna]->setPosicion(posicionActual);
 
                 if(fila == 0 || fila == 9 || columna == 0 || columna == 9){
-                    mazmorra[fila][columna].setChecked(true);
+                    mazmorra[fila][columna]->setChecked(true);
                 }else{
-                    mazmorra[fila][columna].setChecked(false);
+                    mazmorra[fila][columna]->setChecked(false);
                 }
             }
         }
@@ -45,12 +45,12 @@ void Mazmorra::inicializarMazmorra(Dificultades dificultadMazmorra){
 
                 get<0>(posicionActual) = fila;
                 get<1>(posicionActual) = columna;
-                mazmorra[fila][columna].setPosicion(posicionActual);
+                mazmorra[fila][columna]->setPosicion(posicionActual);
 
                 if(fila == 0 || fila == 14 || columna == 0 || columna == 14){
-                    mazmorra[fila][columna].setChecked(true);
+                    mazmorra[fila][columna]->setChecked(true);
                 }else{
-                    mazmorra[fila][columna].setChecked(false);
+                    mazmorra[fila][columna]->setChecked(false);
                 }
             }
         }
@@ -71,8 +71,8 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
     tuple <int, int> posicionSpawn(1, spawn), posicionActual(1, spawn);
 
     actualizarPosicionMazmorra(get<0>(posicionSpawn), get<1>(posicionSpawn), new Jugador());
-    mazmorra[get<0>(posicionSpawn)][get<1>(posicionSpawn)].setPosicion(posicionSpawn);
-    mazmorra[get<0>(posicionSpawn)][get<1>(posicionSpawn)].setChecked(true);
+    mazmorra[get<0>(posicionSpawn)][get<1>(posicionSpawn)]->setPosicion(posicionSpawn);
+    mazmorra[get<0>(posicionSpawn)][get<1>(posicionSpawn)]->setChecked(true);
 
     // Multiple iteracion (tamañoMaximo^2 + tamañoMaximo) veces del algoritmo de generacion de laberintos Aldous-broder
     for (int iteracion = 0; iteracion < pow(tamanoMaximo, 2) + tamanoMaximo; iteracion++) {
@@ -85,14 +85,14 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
                     if(get<0>(posicionActual) + 2 > tamanoMaximo - 2){
                         break;
                     }else{
-                        if(!mazmorra[get<0>(posicionActual) + 2][get<1>(posicionActual)].getChecked() || mazmorra[get<0>(posicionActual) + 2][get<1>(posicionActual)].getTipo() == ESPACIO){
+                        if(!mazmorra[get<0>(posicionActual) + 2][get<1>(posicionActual)]->getChecked() || mazmorra[get<0>(posicionActual) + 2][get<1>(posicionActual)]->getTipo() == ESPACIO){
                             actualizarPosicionMazmorra(get<0>(posicionActual) + 1, get<1>(posicionActual), new Espacio());
-                            mazmorra[get<0>(posicionActual) + 1][get<1>(posicionActual)].setChecked (true);
-                            mazmorra[get<0>(posicionActual) + 1][get<1>(posicionActual)].setPosicion(posicionActual);
+                            mazmorra[get<0>(posicionActual) + 1][get<1>(posicionActual)]->setChecked (true);
+                            mazmorra[get<0>(posicionActual) + 1][get<1>(posicionActual)]->setPosicion(posicionActual);
 
                             actualizarPosicionMazmorra(get<0>(posicionActual) + 2, get<1>(posicionActual), new Espacio());
-                            mazmorra[get<0>(posicionActual) + 2][get<1>(posicionActual)].setChecked (true);
-                            mazmorra[get<0>(posicionActual) + 2][get<1>(posicionActual)].setPosicion(posicionActual);
+                            mazmorra[get<0>(posicionActual) + 2][get<1>(posicionActual)]->setChecked (true);
+                            mazmorra[get<0>(posicionActual) + 2][get<1>(posicionActual)]->setPosicion(posicionActual);
 
                             get<0>(posicionActual) += 2;
                         }
@@ -103,14 +103,14 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
                     if(get<1>(posicionActual) + 2 > tamanoMaximo - 2){
                         break;
                     }else{
-                        if(!mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 2].getChecked() || mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 2].getTipo() == ESPACIO){
+                        if(!mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 2]->getChecked() || mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 2]->getTipo() == ESPACIO){
                             actualizarPosicionMazmorra(get<0>(posicionActual), get<1>(posicionActual) + 1, new Espacio());
-                            mazmorra[get<0>(posicionActual) ][get<1>(posicionActual) + 1].setChecked (true);
-                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 1].setPosicion(posicionActual);
+                            mazmorra[get<0>(posicionActual) ][get<1>(posicionActual) + 1]->setChecked (true);
+                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 1]->setPosicion(posicionActual);
 
                             actualizarPosicionMazmorra(get<0>(posicionActual), get<1>(posicionActual) + 2, new Espacio());
-                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 2].setChecked (true);
-                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 2].setPosicion(posicionActual);
+                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 2]->setChecked (true);
+                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) + 2]->setPosicion(posicionActual);
 
                             get<1>(posicionActual) += 2;
                         }
@@ -121,14 +121,14 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
                     if(get<0>(posicionActual) - 2 < 1){
                         break;
                     }else{
-                        if(!mazmorra[get<0>(posicionActual) - 2][get<1>(posicionActual)].getChecked() || mazmorra[get<0>(posicionActual) - 2][get<1>(posicionActual)].getTipo() == ESPACIO){
+                        if(!mazmorra[get<0>(posicionActual) - 2][get<1>(posicionActual)]->getChecked() || mazmorra[get<0>(posicionActual) - 2][get<1>(posicionActual)]->getTipo() == ESPACIO){
                             actualizarPosicionMazmorra(get<0>(posicionActual) - 1, get<1>(posicionActual), new Espacio());
-                            mazmorra[get<0>(posicionActual) - 1][get<1>(posicionActual)].setChecked (true);
-                            mazmorra[get<0>(posicionActual) - 1][get<1>(posicionActual)].setPosicion(posicionActual);
+                            mazmorra[get<0>(posicionActual) - 1][get<1>(posicionActual)]->setChecked (true);
+                            mazmorra[get<0>(posicionActual) - 1][get<1>(posicionActual)]->setPosicion(posicionActual);
 
                             actualizarPosicionMazmorra(get<0>(posicionActual) - 2, get<1>(posicionActual), new Espacio());
-                            mazmorra[get<0>(posicionActual) - 2][get<1>(posicionActual)].setChecked (true);
-                            mazmorra[get<0>(posicionActual) - 2][get<1>(posicionActual)].setPosicion(posicionActual);
+                            mazmorra[get<0>(posicionActual) - 2][get<1>(posicionActual)]->setChecked (true);
+                            mazmorra[get<0>(posicionActual) - 2][get<1>(posicionActual)]->setPosicion(posicionActual);
 
                             get<0>(posicionActual) -= 2;
                         }
@@ -139,14 +139,14 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
                     if(get<1>(posicionActual) - 2 < 1){
                         break;
                     }else{
-                        if(!mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 2].getChecked() || mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 2].getTipo() == ESPACIO){
+                        if(!mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 2]->getChecked() || mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 2]->getTipo() == ESPACIO){
                             actualizarPosicionMazmorra(get<0>(posicionActual), get<1>(posicionActual) - 1, new Espacio());
-                            mazmorra[get<0>(posicionActual) ][get<1>(posicionActual) - 1].setChecked (true);
-                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 1].setPosicion(posicionActual);
+                            mazmorra[get<0>(posicionActual) ][get<1>(posicionActual) - 1]->setChecked (true);
+                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 1]->setPosicion(posicionActual);
 
                             actualizarPosicionMazmorra(get<0>(posicionActual), get<1>(posicionActual) - 2, new Espacio());
-                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 2].setChecked (true);
-                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 2].setPosicion(posicionActual);
+                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 2]->setChecked (true);
+                            mazmorra[get<0>(posicionActual)][get<1>(posicionActual) - 2]->setPosicion(posicionActual);
 
                             get<1>(posicionActual) -= 2;
                         }
@@ -179,7 +179,7 @@ void Mazmorra::algoritmoDePosicionamientoDeEntidades(Dificultades dificultadMazm
         if(actualizado == false){
             for (int fila = tamanoMaximo - 1; fila >= 0; fila--) {
                 for (int columna = 0; columna < tamanoMaximo; columna++) {
-                    if(mazmorra[fila][columna].getTipo() == ESPACIO){
+                    if(mazmorra[fila][columna]->getTipo() == ESPACIO){
                         probabilidadEnemigo = 1 + rand() % 100;
                         if(probabilidadEnemigo < 35){
                             tipoEnemigo = 1 + rand() % 3;
@@ -215,7 +215,7 @@ void Mazmorra::algoritmoDePosicionamientoDeItems(Dificultades dificultadMazmorra
 
     for (int fila = tamanoMaximo - 1; fila >= 0; fila--) {
         for (int columna = 0; columna < tamanoMaximo; columna++) {
-            if (mazmorra[fila][columna].getTipo() == ESPACIO) {
+            if (mazmorra[fila][columna]->getTipo() == ESPACIO) {
                 probabilidadItem = 1 + rand() % 100;
                 if (probabilidadItem < 15) {
                     tipoItem = 1 + rand() % 2;
@@ -250,8 +250,8 @@ void Mazmorra::algoritmoDePosicionamientoDeItems(Dificultades dificultadMazmorra
 }
 
 void Mazmorra::actualizarPosicionMazmorra(int fila, int columna, Espacio* tipoEspacio){
-    mazmorra[fila][columna] = *tipoEspacio;
-    mazmorra[fila][columna].setPosicion(tuple<int, int>(fila, columna));
+    mazmorra[fila][columna] = tipoEspacio;
+    mazmorra[fila][columna]->setPosicion(tuple<int, int>(fila, columna));
 }
 
 void Mazmorra::mostrarMazmorra(int desdeFila){
@@ -267,7 +267,7 @@ void Mazmorra::mostrarMazmorra(int desdeFila){
 
     for (int fila = tamanoMaximo - 1; fila >= desdeFila; fila--) {
         for (int columna = 0; columna < tamanoMaximo; columna++) {
-            cout << " " << mazmorra[fila][columna].getImagen() << " ";
+            cout << " " << mazmorra[fila][columna]->getImagen() << " ";
         }
 
         cout << endl;
@@ -283,7 +283,7 @@ void Mazmorra::limpiarMazmorra(){
 }
 
 Espacio* Mazmorra::getEspacio(int fila, int columna){
-    return &mazmorra[fila][columna];
+    return mazmorra[fila][columna];
 }
 
 Dificultades Mazmorra::getDificultad(){
@@ -293,13 +293,13 @@ Dificultades Mazmorra::getDificultad(){
 tuple<int, int> Mazmorra::getPosicionJugador(){
     for (int fila = 0; fila < 15; fila++) {
         for (int columna = 0; columna < 15; columna++) {
-            if(mazmorra[fila][columna].getTipo() == JUGADOR){
-                return mazmorra[fila][columna].getPosicion();
+            if(mazmorra[fila][columna]->getTipo() == JUGADOR){
+                return mazmorra[fila][columna]->getPosicion();
             }
         }
     }
 
-    return mazmorra[0][0].getPosicion();
+    return mazmorra[0][0]->getPosicion();
 }
 
 void Mazmorra::setDificultad(Dificultades nuevaDificultad){

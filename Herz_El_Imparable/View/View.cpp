@@ -174,6 +174,32 @@ void View::escucharTeclas(){
                     desplegarMenuPausa();
                     controller.mostrarMazmorra(0);
                     break;
+                    // UP-DOWM-LEFT-RIGHT Controlls
+                case 'H':
+                    // ARRIBA
+                    cout << endl << "ARRIBA" << endl;
+                    controller.teclaArriba();
+                    controller.mostrarMazmorra(0);
+                    break;
+                case 'K':
+                    // IZQUIERDA
+                    cout << endl << "IZQUIERDA" << endl;
+                    controller.teclaIzquierda();
+                    controller.mostrarMazmorra(0);
+                    break;
+                case 'M':
+                    // DERECHA
+                    cout << endl << "DERECHA" << endl;
+                    controller.teclaDerecha();
+                    controller.mostrarMazmorra(0);
+                    break;
+                case 'P':
+                    // ABAJO
+                    cout << endl << "ABAJO" << endl;
+                    controller.teclaAbajo();
+                    controller.mostrarMazmorra(0);
+                    break;
+                    // WASD Controlls
                 case 'w':
                     // ARRIBA
                     cout << endl << "ARRIBA" << endl;
@@ -198,8 +224,6 @@ void View::escucharTeclas(){
                     controller.teclaAbajo();
                     controller.mostrarMazmorra(0);
                     break;
-                default:
-                    cout << teclaPresionada << endl;
             }
         }
     } while (controller.getEstadoJuego() == JUGANDO);

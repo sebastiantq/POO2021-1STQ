@@ -34,6 +34,8 @@ void Jugador::mostrarInventario(){
 
         cout << endl;
     }
+
+    cout << endl;
 }
 
 tuple<int, int> Jugador::getPosicionDisponibleInventario(){
@@ -45,7 +47,6 @@ tuple<int, int> Jugador::getPosicionDisponibleInventario(){
             if(!inventario[fila][columna].getChecked()){
                 get<0>(posicionDisponible) = fila;
                 get<1>(posicionDisponible) = columna;
-                cout << "Es verdad, es verdad, estamos bien cachon3" << endl;
                 return posicionDisponible;
             }
         }

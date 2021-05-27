@@ -24,7 +24,7 @@ enum Dificultades {FACIL, NORMAL};
 
 class Mazmorra {
     private:
-        Espacio mazmorra[TAMANO][TAMANO];
+        Espacio* mazmorra[TAMANO][TAMANO];
         Dificultades dificultad;
         void algoritmoDeRelleno(int tamanoMaximo);
         void algoritmoDePosicionamientoDeEntidades(Dificultades dificultadMazmorra);
