@@ -6,9 +6,10 @@
 
 JefeTroll::JefeTroll(){
     setImagen('T');
+    setTipoEnemigo(JEFE_TROLL);
 }
 
-bool JefeTroll::interaccion(){
+bool JefeTroll::combate(Entidad* jugadorEntidad) {
     return false;
 }
 

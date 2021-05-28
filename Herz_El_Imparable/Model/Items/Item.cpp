@@ -8,11 +8,6 @@ Item::Item(){
     setImagen('_');
 }
 
-bool Item::interaccion(){
-    cout << endl << "Interaccion con item" << endl;
-    return false;
-}
-
 Item::~Item(){
 
 }

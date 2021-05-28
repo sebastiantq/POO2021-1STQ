@@ -12,7 +12,11 @@ Enemigo::Enemigo(){
 }
 
 void Enemigo::setTipoEnemigo(TipoEnemigo nuevoTipoEnemigo){
+    tipoEnemigo = nuevoTipoEnemigo;
+}
 
+TipoEnemigo Enemigo::getTipoEnemigo(){
+    return tipoEnemigo;
 }
 
 Enemigo::~Enemigo(){

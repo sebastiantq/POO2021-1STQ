@@ -14,9 +14,8 @@ class Pocion: public Item {
         TipoPocion tipoPocion;
     public:
         Pocion();
-        void consumir();
+        virtual void consumir(Espacio* jugador) = 0;
         void setTipoPocion(TipoPocion nuevoTipoPocion);
-        virtual bool interaccion() override;
         TipoPocion getTipoPocion();
         ~Pocion();
 };

@@ -6,9 +6,10 @@
 
 Biter::Biter(){
     setImagen('b');
+    setTipoEnemigo(BITER);
 }
 
-bool Biter::interaccion(){
+bool Biter::combate(Entidad* jugadorEntidad) {
     return false;
 }
 

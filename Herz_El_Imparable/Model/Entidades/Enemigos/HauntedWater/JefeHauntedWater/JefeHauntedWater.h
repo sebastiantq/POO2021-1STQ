@@ -11,7 +11,7 @@ class JefeHauntedWater : public HauntedWater{
     private:
     public:
         JefeHauntedWater();
-        virtual bool interaccion() override;
+        bool combate(Entidad* jugadorEntidad) override;
         virtual void atacar(int fila, int columna) override;
         ~JefeHauntedWater();
 };

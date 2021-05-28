@@ -6,9 +6,10 @@
 
 JefeHauntedWater::JefeHauntedWater(){
     setImagen('W');
+    setTipoEnemigo(JEFE_HAUNTED_WATER);
 }
 
-bool JefeHauntedWater::interaccion(){
+bool JefeHauntedWater::combate(Entidad* jugadorEntidad){
     return false;
 }
 

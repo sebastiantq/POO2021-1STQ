@@ -12,6 +12,10 @@ Curacion::Curacion(){
     checked = true;
 }
 
+void Curacion::consumir(Espacio* jugador){
+
+}
+
 bool Curacion::interaccion(){
     int opcion;
 

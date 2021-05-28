@@ -80,6 +80,7 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
 
         try {
             switch (bloque) {
+                // Arriba
                 case 1:
                     // Verifica que la casilla a verificar no exceda los límites de la mazmorra
                     if(get<0>(posicionActual) + 2 > tamanoMaximo - 2){
@@ -96,8 +97,10 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
 
                             get<0>(posicionActual) += 2;
                         }
+
+                        break;
                     }
-                    break;
+                // Derecha
                 case 2:
                     // Verifica que la casilla a verificar no exceda los límites de la mazmorra
                     if(get<1>(posicionActual) + 2 > tamanoMaximo - 2){
@@ -114,8 +117,10 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
 
                             get<1>(posicionActual) += 2;
                         }
+
+                        break;
                     }
-                    break;
+                // Abajo
                 case 3:
                     // Verifica que la casilla a verificar no exceda los límites de la mazmorra
                     if(get<0>(posicionActual) - 2 < 1){
@@ -132,8 +137,10 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
 
                             get<0>(posicionActual) -= 2;
                         }
+
+                        break;
                     }
-                    break;
+                // Izquierda
                 case 4:
                     // Verifica que la casilla a verificar no exceda los límites de la mazmorra
                     if(get<1>(posicionActual) - 2 < 1){
@@ -150,13 +157,12 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
 
                             get<1>(posicionActual) -= 2;
                         }
+
+                        break;
                     }
-                    break;
                 default:
                     break;
             }
-
-            iteracion++;
         }catch(int error){
             continue;
         }

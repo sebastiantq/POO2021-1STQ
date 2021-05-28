@@ -6,9 +6,10 @@
 
 HauntedWater::HauntedWater(){
     setImagen('w');
+    setTipoEnemigo(HAUNTED_WATER);
 }
 
-bool HauntedWater::interaccion(){
+bool HauntedWater::combate(Entidad* jugador) {
     return false;
 }
 

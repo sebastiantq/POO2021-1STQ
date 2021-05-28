@@ -6,9 +6,10 @@
 
 JefeBiter::JefeBiter(){
     setImagen('B');
+    setTipoEnemigo(JEFE_BITER);
 }
 
-bool JefeBiter::interaccion(){
+bool JefeBiter::combate(Entidad* jugadorEntidad) {
     return false;
 }
 

@@ -7,14 +7,16 @@
 
 #include "../Entidad.h"
 
-enum TipoEnemigo {TROLL, HAUNTED_WATER, BITER};
+enum TipoEnemigo {TROLL, HAUNTED_WATER, BITER, JEFE_TROLL, JEFE_HAUNTED_WATER, JEFE_BITER};
 
 class Enemigo: public Entidad {
     private:
         TipoEnemigo tipoEnemigo;
     public:
         Enemigo();
+        virtual bool combate(Entidad* jugadorEntidad) = 0;
         void setTipoEnemigo(TipoEnemigo nuevoTipoEnemigo);
+        TipoEnemigo getTipoEnemigo();
         ~Enemigo();
 };
 

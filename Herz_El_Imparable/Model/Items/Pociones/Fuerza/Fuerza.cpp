@@ -12,6 +12,10 @@ Fuerza::Fuerza(){
     checked = true;
 }
 
+void Fuerza::consumir(Espacio* jugador){
+
+}
+
 bool Fuerza::interaccion(){
     int opcion;
 

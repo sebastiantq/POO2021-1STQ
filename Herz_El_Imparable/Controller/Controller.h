@@ -9,7 +9,7 @@
 #include <cstdio>
 #include <conio.h>
 
-enum EstadoJuego {MENU_PRINCIPAL, JUGANDO, PAUSA};
+enum EstadoJuego {MENU_PRINCIPAL, ESCOGIENDO_DIFICULTAD, JUGANDO, PAUSA};
 
 class Controller {
     private:
@@ -25,6 +25,7 @@ class Controller {
         void teclaAbajo();
         void interactuar(int fila, int columna);
         void setEstadoJuego(EstadoJuego nuevoEstadoJuego);
+        Mazmorra getMazmorra();
         EstadoJuego getEstadoJuego();
 };
 

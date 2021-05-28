@@ -80,7 +80,9 @@ CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.obj: ..\Mod
 CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.obj: ..\Model\Entidades\Jugador\Jugador.cpp
 CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.obj: ..\Model\Entidades\Jugador\Jugador.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.obj: ..\Model\Espacio.h
+CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.obj: ..\Model\Items\Armas\Arma.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.obj: ..\Model\Items\Item.h
+CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Jugador\Jugador.cpp.obj: ..\Model\Items\Pociones\Pocion.h
 
 CMakeFiles\Herz_El_Imparable.dir\Model\Espacio.cpp.obj: ..\Model\Espacio.cpp
 CMakeFiles\Herz_El_Imparable.dir\Model\Espacio.cpp.obj: ..\Model\Espacio.h

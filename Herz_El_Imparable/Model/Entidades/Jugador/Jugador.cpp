@@ -15,7 +15,7 @@ Jugador::Jugador(){
 void Jugador::inicializarInventario(){
     for (int fila = 0; fila < 2; fila++) {
         for (int columna = 0; columna < 5; columna++) {
-            actualizarPosicionInventario(fila, columna, Espacio());
+            actualizarPosicionInventario(fila, columna, new Espacio());
         }
     }
 }
@@ -29,7 +29,12 @@ void Jugador::mostrarInventario(){
 
     for (int fila = 0; fila < 2; fila++) {
         for (int columna = 0; columna < 5; columna++) {
-            cout << "|"  << inventario[fila][columna].getImagen() << "|";
+            cout << "|"  << inventario[fila][columna]->getImagen() << "|";
+        }
+
+        // Muestra el arma equipada
+        if(fila == 0){
+            cout << "     |"  << getArmaEquipada()->getImagen() << "|";
         }
 
         cout << endl;
@@ -38,13 +43,156 @@ void Jugador::mostrarInventario(){
     cout << endl;
 }
 
+void Jugador::actualizarPosicionInventario(int fila, int columna, Espacio* nuevoItem){
+    inventario[fila][columna] = nuevoItem;
+}
+
+bool Jugador::muerte(bool dificultadNormal){
+    int opcion;
+
+    if(dificultadNormal){
+        cout << endl << "Has muerto, bajale un poco la dificultad si lo precisas"<< endl;
+    }else{
+        cout << endl << "Has muerto, ponte a jugar a los Sims"<< endl;
+    }
+
+    do {
+        cout << endl << "¿Deseas iniciar una nueva partida? (1. Si, 0. No): ";
+        cin >> opcion;
+    }while(opcion != 0 && opcion != 1);
+
+    return opcion;
+}
+
+void Jugador::desplegarMenuInventario(){
+    int opcion;
+
+    do{
+        cout << endl << "-- Menu inventario --" << endl << endl;
+        cout << "1. Soltar item" << endl;
+        cout << "2. Consumir pocion" << endl;
+        cout << "3. Equipar arma" << endl;
+        cout << "0. Regresar" << endl << endl;
+
+        cout << "Opcion: ";
+        cin >> opcion;
+
+        menuInventario(opcion);
+    } while (opcion != 0);
+}
+
+void Jugador::menuInventario(int opcion){
+    switch (opcion) {
+        case 0:
+            break;
+        case 1:
+        {
+            int fila, columna;
+
+            do {
+                cout << endl << "Ingrese la fila del item a soltar: ";
+                cin >> fila;
+            }while(fila < 0 && fila > 4);
+
+            do{
+                cout << "Ingrese la columna del item a soltar: ";
+                cin >> columna;
+            }while(columna < 0 && columna > 4);
+
+            if(getItemInventario(fila, columna)->getTipo() == ESPACIO){
+                cout << endl << "Tu pueblo muriendo y tu perdiendo el tiempo en soltar un espacio vacio" << endl;
+            }else{
+                actualizarPosicionInventario(fila, columna, new Espacio());
+                cout << endl << "Item soltado" << endl;
+            }
+
+            break;
+        }
+        case 2:
+        {
+            int fila, columna;
+
+            do {
+                cout << endl << "Ingrese la fila de la pocion a consumir: ";
+                cin >> fila;
+            }while(fila < 0 && fila > 4);
+
+            do{
+                cout << "Ingrese la columna de la pocion a consumir: ";
+                cin >> columna;
+            }while(columna < 0 && columna > 4);
+
+            if(getItemInventario(fila, columna)->getTipo() == ESPACIO){
+                cout << endl << "Supongo que eso significa que quieres tomar aire" << endl;
+            }else{
+                Pocion* pocion = dynamic_cast<Pocion*>(getItemInventario(fila, columna));
+
+                if(pocion){
+                    pocion->consumir(this);
+                    actualizarPosicionInventario(fila, columna, new Espacio());
+                    cout << endl << "Pocion consumida" << endl;
+                }else{
+                    cout << endl << "El elemento seleccionado no es una pocion" << endl;
+                }
+            }
+
+            break;
+        }
+        case 3:
+        {
+            int fila, columna;
+
+            cout << endl << "Al equipar un arma se sustituira la actual por la equipada y se guardara la anterior en el lugar de la nueva" << endl << endl;
+
+            do {
+                cout << "Ingrese la fila del arma a equipar: ";
+                cin >> fila;
+            }while(fila < 0 && fila > 4);
+
+            do{
+                cout << "Ingrese la columna del arma a equipar: ";
+                cin >> columna;
+            }while(columna < 0 && columna > 4);
+
+            Arma* arma = dynamic_cast<Arma*>(getItemInventario(fila, columna));
+
+            if(arma){
+                Espacio* espacioTemporal = getItemInventario(fila, columna);
+                actualizarPosicionInventario(fila, columna, getArmaEquipada());
+                setArmaEquipada(espacioTemporal);
+
+                cout << endl << "Arma equipada" << endl;
+            }else{
+                cout << endl << "El elemento seleccionado no es un arma" << endl;
+            }
+
+            break;
+        }
+        default:
+            cout << "Opcion erronea" << endl;
+            break;
+    }
+}
+
+void Jugador::setArmaEquipada(Espacio* nuevaArmaEquipada){
+    armaEquipada = *nuevaArmaEquipada;
+}
+
+Espacio* Jugador::getArmaEquipada(){
+    return &armaEquipada;
+}
+
+
+Espacio* Jugador::getItemInventario(int fila, int columna){
+    return inventario[fila][columna];
+}
+
 tuple<int, int> Jugador::getPosicionDisponibleInventario(){
     tuple<int, int>posicionDisponible;
 
     for (int fila = 0; fila < 2; fila++) {
         for (int columna = 0; columna < 5; columna++) {
-            cout << " 1 ";
-            if(!inventario[fila][columna].getChecked()){
+            if(!inventario[fila][columna]->getChecked()){
                 get<0>(posicionDisponible) = fila;
                 get<1>(posicionDisponible) = columna;
                 return posicionDisponible;
@@ -56,10 +204,6 @@ tuple<int, int> Jugador::getPosicionDisponibleInventario(){
     get<0>(posicionDisponible) = 5;
     get<1>(posicionDisponible) = 5;
     return posicionDisponible;
-}
-
-void Jugador::actualizarPosicionInventario(int fila, int columna, Espacio nuevoItem){
-    inventario[fila][columna] = nuevoItem;
 }
 
 Jugador::~Jugador(){

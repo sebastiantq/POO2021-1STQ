@@ -39,7 +39,12 @@ void View::nuevaPartida(){
 
             if(controller.getEstadoJuego() == PAUSA){
                 desplegarMenuPausa();
+            }else if(controller.getEstadoJuego() == MENU_PRINCIPAL){
+                desplegarMenuInicial();
+            }else if(controller.getEstadoJuego() == ESCOGIENDO_DIFICULTAD){
+                nuevaPartida();
             }
+
             break;
         default:
             cout << endl << "Opcion erronea" << endl;
@@ -168,13 +173,28 @@ void View::escucharTeclas(){
                 case 13:
                     // ENTER
                     break;
+                case 'i':
+                {
+                    // INVENTARIO
+                    cout << endl << "INVENTARIO" << endl;
+
+                    // Formula larga para obtener el punto hacia jugador sin almacenar la posicion en variables
+                    Jugador* jugador = (Jugador*)(controller.getMazmorra().getEspacio(get<0>(controller.getMazmorra().getPosicionJugador()), get<1>(controller.getMazmorra().getPosicionJugador())));
+
+                    jugador->mostrarInventario();
+                    jugador->desplegarMenuInventario();
+
+                    controller.mostrarMazmorra(0);
+
+                    break;
+                }
                 case 27:
                     // ESC
                     cout << endl << "ESCAPE" << endl;
                     desplegarMenuPausa();
                     controller.mostrarMazmorra(0);
                     break;
-                    // UP-DOWM-LEFT-RIGHT Controlls
+                // UP-DOWM-LEFT-RIGHT Controlls
                 case 'H':
                     // ARRIBA
                     cout << endl << "ARRIBA" << endl;

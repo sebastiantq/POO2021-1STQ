@@ -11,7 +11,7 @@ class JefeBiter : public Biter{
     private:
     public:
         JefeBiter();
-        virtual bool interaccion() override;
+        bool combate(Entidad* jugadorEntidad) override;
         virtual void atacar(int fila, int columna) override;
         ~JefeBiter();
 };

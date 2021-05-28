@@ -6,9 +6,11 @@
 
 Troll::Troll(){
     setImagen('t');
+    setTipoEnemigo(TROLL);
 }
 
-bool Troll::interaccion(){
+bool Troll::combate(Entidad* jugadorEntidad) {
+
     return false;
 }
 

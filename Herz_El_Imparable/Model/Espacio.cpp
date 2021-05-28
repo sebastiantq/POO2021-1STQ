@@ -12,7 +12,6 @@ Espacio::Espacio() {
 }
 
 bool Espacio::interaccion(){
-    cout << endl << "Interaccion con objeto Espacio" << endl;
     return false;
 }
 

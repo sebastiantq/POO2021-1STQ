@@ -40,6 +40,10 @@ void Controller::setEstadoJuego(EstadoJuego nuevoEstadoJuego){
     estadoJuego = nuevoEstadoJuego;
 }
 
+Mazmorra Controller::getMazmorra(){
+    return mazmorra;
+}
+
 EstadoJuego Controller::getEstadoJuego(){
     return estadoJuego;
 }
@@ -59,18 +63,25 @@ void Controller::interactuar(int fila, int columna){
                 cout << "El inventario está lleno, debes eliminar algun item primero" << endl;
             }else{
                 // Añade el item al inventario del jugador
-                jugador->actualizarPosicionInventario(get<0>(posicionDisponibleInventario), get<1>(posicionDisponibleInventario), *mazmorra.getEspacio(fila, columna));
+                jugador->actualizarPosicionInventario(get<0>(posicionDisponibleInventario), get<1>(posicionDisponibleInventario), mazmorra.getEspacio(fila, columna));
                 mazmorra.actualizarPosicionMazmorra(fila, columna, new Espacio());
             }
         }
     }else if(mazmorra.getEspacio(fila, columna)->getTipo() == ENEMIGO || mazmorra.getEspacio(fila, columna)->getTipo() == JEFE){
         // Es un Enemigo
-        if(mazmorra.getEspacio(fila, columna)->interaccion()){
+        Enemigo* enemigoACombatir = (Enemigo*)(mazmorra.getEspacio(fila, columna)); // Downcasting para acceder a metodos de enemigo
+
+        if(enemigoACombatir->combate(jugador)){
             // Inicia el combate
-            jugador->actualizarPosicionInventario(get<1>(posicionDisponibleInventario), get<1>(posicionDisponibleInventario), *mazmorra.getEspacio(fila, columna));
+            jugador->actualizarPosicionInventario(get<1>(posicionDisponibleInventario), get<1>(posicionDisponibleInventario), mazmorra.getEspacio(fila, columna));
             mazmorra.actualizarPosicionMazmorra(fila, columna, new Espacio());
         }else{
             // Ha muerto Herz
+            if(jugador->muerte(mazmorra.getDificultad())){
+                setEstadoJuego(ESCOGIENDO_DIFICULTAD);
+            }else{
+                setEstadoJuego(MENU_PRINCIPAL);
+            }
         }
     }
 }

@@ -11,7 +11,6 @@ class Item : public Espacio {
     private:
     public:
         Item();
-        virtual bool interaccion() override;
         ~Item();
 };
 

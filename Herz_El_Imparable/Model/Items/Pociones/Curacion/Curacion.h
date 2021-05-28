@@ -11,6 +11,7 @@ class Curacion : public Pocion{
     private:
     public:
         Curacion();
+        void consumir(Espacio* jugador) override;
         virtual bool interaccion() override;
         ~Curacion();
 };
