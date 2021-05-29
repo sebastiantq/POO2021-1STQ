@@ -504,6 +504,33 @@ Model\Items\Armas\Hacha\Hacha.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\Hacha\Hacha.cpp.s
 .PHONY : Model\Items\Armas\Hacha\Hacha.cpp.s
 
+Model\Items\Armas\PocionDano\PocionDano.obj: Model\Items\Armas\PocionDano\PocionDano.cpp.obj
+
+.PHONY : Model\Items\Armas\PocionDano\PocionDano.obj
+
+# target to build an object file
+Model\Items\Armas\PocionDano\PocionDano.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.obj
+.PHONY : Model\Items\Armas\PocionDano\PocionDano.cpp.obj
+
+Model\Items\Armas\PocionDano\PocionDano.i: Model\Items\Armas\PocionDano\PocionDano.cpp.i
+
+.PHONY : Model\Items\Armas\PocionDano\PocionDano.i
+
+# target to preprocess a source file
+Model\Items\Armas\PocionDano\PocionDano.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.i
+.PHONY : Model\Items\Armas\PocionDano\PocionDano.cpp.i
+
+Model\Items\Armas\PocionDano\PocionDano.s: Model\Items\Armas\PocionDano\PocionDano.cpp.s
+
+.PHONY : Model\Items\Armas\PocionDano\PocionDano.s
+
+# target to generate assembly for a file
+Model\Items\Armas\PocionDano\PocionDano.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Herz_El_Imparable.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.s
+.PHONY : Model\Items\Armas\PocionDano\PocionDano.cpp.s
+
 Model\Items\ArtefactoLegendario.obj: Model\Items\ArtefactoLegendario.cpp.obj
 
 .PHONY : Model\Items\ArtefactoLegendario.obj
@@ -798,6 +825,9 @@ help:
 	@echo ... Model/Items/Armas/Hacha/Hacha.obj
 	@echo ... Model/Items/Armas/Hacha/Hacha.i
 	@echo ... Model/Items/Armas/Hacha/Hacha.s
+	@echo ... Model/Items/Armas/PocionDano/PocionDano.obj
+	@echo ... Model/Items/Armas/PocionDano/PocionDano.i
+	@echo ... Model/Items/Armas/PocionDano/PocionDano.s
 	@echo ... Model/Items/ArtefactoLegendario.obj
 	@echo ... Model/Items/ArtefactoLegendario.i
 	@echo ... Model/Items/ArtefactoLegendario.s

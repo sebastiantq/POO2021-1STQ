@@ -7,14 +7,14 @@
 
 #include "../Item.h"
 
-enum TipoPocion {FUERZA, CURACION};
+enum TipoPocion {FUERZA, CURACION, ESCAPE};
 
 class Pocion: public Item {
     private:
         TipoPocion tipoPocion;
     public:
         Pocion();
-        virtual void consumir(Espacio* jugador) = 0;
+        virtual void consumir(Espacio* jugadorEntidad) = 0;
         void setTipoPocion(TipoPocion nuevoTipoPocion);
         TipoPocion getTipoPocion();
         ~Pocion();

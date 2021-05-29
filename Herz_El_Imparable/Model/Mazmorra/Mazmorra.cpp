@@ -260,8 +260,43 @@ void Mazmorra::actualizarPosicionMazmorra(int fila, int columna, Espacio* tipoEs
     mazmorra[fila][columna]->setPosicion(tuple<int, int>(fila, columna));
 }
 
+void Mazmorra::abrirPuerta(){
+    int tamanoMaximo;
+
+    if(getDificultad() == FACIL){
+        tamanoMaximo = 10;
+    }else{
+        tamanoMaximo = 15;
+    }
+
+    for (int fila = tamanoMaximo - 1; fila >= 0; fila--) {
+        for (int columna = 0; columna < tamanoMaximo; columna++) {
+            if(fila == tamanoMaximo - 1 || fila == 0 || columna == tamanoMaximo - 1 || columna == 0){
+                if(getEspacio(fila + 1, columna)->getTipo() == ESPACIO){
+                    // Arriba
+                    actualizarPosicionMazmorra(fila + 1, columna, new Espacio());
+                    getEspacio(fila + 1, columna)->setTipo(SALIDA);
+                }else if(getEspacio(fila, columna + 1)->getTipo() == ESPACIO){
+                    // Derecha
+                    actualizarPosicionMazmorra(fila, columna + 1, new Espacio());
+                    getEspacio(fila, columna + 1)->setTipo(SALIDA);
+                }else if(getEspacio(fila - 1, columna)->getTipo() == ESPACIO){
+                    // Abajo
+                    actualizarPosicionMazmorra(fila - 1, columna, new Espacio());
+                    getEspacio(fila - 1, columna)->setTipo(SALIDA);
+                }else if(getEspacio(fila, columna - 1)->getTipo() == ESPACIO){
+                    // Izquierda
+                    actualizarPosicionMazmorra(fila, columna - 1, new Espacio());
+                    getEspacio(fila, columna - 1)->setTipo(SALIDA);
+                }
+            }
+        }
+    }
+}
+
 void Mazmorra::mostrarMazmorra(int desdeFila){
     int tamanoMaximo;
+    Jugador* jugador = (Jugador*)(getEspacio(get<0>(getPosicionJugador()), get<1>(getPosicionJugador())));
 
     if(getDificultad() == FACIL){
         tamanoMaximo = 10;
@@ -276,8 +311,11 @@ void Mazmorra::mostrarMazmorra(int desdeFila){
             cout << " " << mazmorra[fila][columna]->getImagen() << " ";
         }
 
-        cout << endl;
+        cout << endl << endl;
     }
+
+    cout << "Vida: " << jugador->getPuntosVida() << endl;
+    cout << "Ataque: " << jugador->getPuntosAtaque() << endl;
 }
 
 void Mazmorra::limpiarMazmorra(){

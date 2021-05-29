@@ -11,15 +11,18 @@
 class Entidad: public Espacio {
     private:
         int puntosVida;
+        int puntosVidaMaximos;
         int puntosAtaque;
         Item inventario[10];
     public:
         Entidad();
         virtual void atacar(int fila, int columna) = 0;
         int getPuntosVida();
+        int getPuntosVidaMaximos();
         int getPuntosAtaque();
-        void setPuntosVida();
-        void setPuntosAtaque();
+        void setPuntosVida(int nuevosPuntosDeVida);
+        void setPuntosVidaMaximos(int nuevosPuntosDeVidaMaximos);
+        void setPuntosAtaque(int nuevoPuntosAtaque);
 };
 
 

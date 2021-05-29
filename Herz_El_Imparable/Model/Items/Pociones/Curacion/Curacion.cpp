@@ -3,6 +3,7 @@
 //
 
 #include "Curacion.h"
+#include "../../../Entidades/Jugador/Jugador.h"
 
 Curacion::Curacion(){
     setImagen('C');
@@ -12,8 +13,12 @@ Curacion::Curacion(){
     checked = true;
 }
 
-void Curacion::consumir(Espacio* jugador){
+// Restaura la vida al maximo
+void Curacion::consumir(Espacio* jugadorEntidad){
+    Jugador* jugador = (Jugador*)(jugadorEntidad);
+    jugador->setPuntosVida(jugador->getPuntosVidaMaximos());
 
+    cout << endl << "Tu vida ha sido restaurada al maximo" << endl;
 }
 
 bool Curacion::interaccion(){

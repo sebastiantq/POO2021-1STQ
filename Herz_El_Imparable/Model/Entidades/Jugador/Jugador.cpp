@@ -3,6 +3,7 @@
 //
 
 #include "Jugador.h"
+#include "../../Items/Armas/Arma.h"
 
 Jugador::Jugador(){
     setImagen('O');
@@ -10,6 +11,9 @@ Jugador::Jugador(){
     interactivo = false;
     checked = false;
     inicializarInventario();
+    setPuntosVida(10);
+    setPuntosVidaMaximos(10);
+    setPuntosAtaque(0);
 }
 
 void Jugador::inicializarInventario(){
@@ -67,6 +71,8 @@ bool Jugador::muerte(bool dificultadNormal){
 void Jugador::desplegarMenuInventario(){
     int opcion;
 
+    mostrarInventario();
+
     do{
         cout << endl << "-- Menu inventario --" << endl << endl;
         cout << "1. Soltar item" << endl;
@@ -92,12 +98,12 @@ void Jugador::menuInventario(int opcion){
             do {
                 cout << endl << "Ingrese la fila del item a soltar: ";
                 cin >> fila;
-            }while(fila < 0 && fila > 4);
+            }while(fila < 0 || fila > 4);
 
             do{
                 cout << "Ingrese la columna del item a soltar: ";
                 cin >> columna;
-            }while(columna < 0 && columna > 4);
+            }while(columna < 0 || columna > 4);
 
             if(getItemInventario(fila, columna)->getTipo() == ESPACIO){
                 cout << endl << "Tu pueblo muriendo y tu perdiendo el tiempo en soltar un espacio vacio" << endl;
@@ -115,12 +121,12 @@ void Jugador::menuInventario(int opcion){
             do {
                 cout << endl << "Ingrese la fila de la pocion a consumir: ";
                 cin >> fila;
-            }while(fila < 0 && fila > 4);
+            }while(fila < 0 || fila > 4);
 
             do{
                 cout << "Ingrese la columna de la pocion a consumir: ";
                 cin >> columna;
-            }while(columna < 0 && columna > 4);
+            }while(columna < 0 || columna > 4);
 
             if(getItemInventario(fila, columna)->getTipo() == ESPACIO){
                 cout << endl << "Supongo que eso significa que quieres tomar aire" << endl;
@@ -147,12 +153,12 @@ void Jugador::menuInventario(int opcion){
             do {
                 cout << "Ingrese la fila del arma a equipar: ";
                 cin >> fila;
-            }while(fila < 0 && fila > 4);
+            }while(fila < 0 || fila > 4);
 
             do{
                 cout << "Ingrese la columna del arma a equipar: ";
                 cin >> columna;
-            }while(columna < 0 && columna > 4);
+            }while(columna < 0 || columna > 4);
 
             Arma* arma = dynamic_cast<Arma*>(getItemInventario(fila, columna));
 
@@ -160,6 +166,9 @@ void Jugador::menuInventario(int opcion){
                 Espacio* espacioTemporal = getItemInventario(fila, columna);
                 actualizarPosicionInventario(fila, columna, getArmaEquipada());
                 setArmaEquipada(espacioTemporal);
+
+                // Añade los puntos de ataque del arma a los puntos de ataque de Herz
+                setPuntosAtaque(getPuntosAtaque() + ((Arma*)(espacioTemporal))->getDano());
 
                 cout << endl << "Arma equipada" << endl;
             }else{

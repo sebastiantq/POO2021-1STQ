@@ -3,6 +3,7 @@
 //
 
 #include "Fuerza.h"
+#include "../../../Entidades/Jugador/Jugador.h"
 
 Fuerza::Fuerza(){
     setImagen('F');
@@ -12,8 +13,12 @@ Fuerza::Fuerza(){
     checked = true;
 }
 
-void Fuerza::consumir(Espacio* jugador){
+// Otorga el doble de puntos de ataque
+void Fuerza::consumir(Espacio* jugadorEntidad){
+    Jugador* jugador = (Jugador*)(jugadorEntidad);
+    jugador->setPuntosAtaque(jugador->getPuntosAtaque() * 2);
 
+    cout << endl << "Tu ataque se ha duplicado, hazlos trizas" << endl;
 }
 
 bool Fuerza::interaccion(){

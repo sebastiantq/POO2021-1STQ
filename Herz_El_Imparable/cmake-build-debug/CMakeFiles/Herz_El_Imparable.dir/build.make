@@ -497,6 +497,25 @@ CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTr
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.s /c C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp
 <<
 
+CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.obj: CMakeFiles\Herz_El_Imparable.dir\flags.make
+CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.obj: ..\Model\Items\Armas\PocionDano\PocionDano.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Herz_El_Imparable.dir/Model/Items/Armas/PocionDano/PocionDano.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.obj /FdCMakeFiles\Herz_El_Imparable.dir\ /FS -c C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\Model\Items\Armas\PocionDano\PocionDano.cpp
+<<
+
+CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Herz_El_Imparable.dir/Model/Items/Armas/PocionDano/PocionDano.cpp.i"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\Model\Items\Armas\PocionDano\PocionDano.cpp
+<<
+
+CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Herz_El_Imparable.dir/Model/Items/Armas/PocionDano/PocionDano.cpp.s"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.s /c C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\Model\Items\Armas\PocionDano\PocionDano.cpp
+<<
+
 # Object files for target Herz_El_Imparable
 Herz_El_Imparable_OBJECTS = \
 "CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj" \
@@ -521,7 +540,8 @@ Herz_El_Imparable_OBJECTS = \
 "CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\Troll.cpp.obj" \
 "CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.obj" \
 "CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.obj" \
-"CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.obj"
+"CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.obj" \
+"CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.obj"
 
 # External object files for target Herz_El_Imparable
 Herz_El_Imparable_EXTERNAL_OBJECTS =
@@ -549,9 +569,10 @@ Herz_El_Imparable.exe: CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos
 Herz_El_Imparable.exe: CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.cpp.obj
 Herz_El_Imparable.exe: CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.cpp.obj
 Herz_El_Imparable.exe: CMakeFiles\Herz_El_Imparable.dir\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.cpp.obj
+Herz_El_Imparable.exe: CMakeFiles\Herz_El_Imparable.dir\Model\Items\Armas\PocionDano\PocionDano.cpp.obj
 Herz_El_Imparable.exe: CMakeFiles\Herz_El_Imparable.dir\build.make
 Herz_El_Imparable.exe: CMakeFiles\Herz_El_Imparable.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable Herz_El_Imparable.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable Herz_El_Imparable.exe"
 	"D:\Programas\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Herz_El_Imparable.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100162~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100162~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Herz_El_Imparable.dir\objects1.rsp @<<
  /out:Herz_El_Imparable.exe /implib:Herz_El_Imparable.lib /pdb:C:\Users\usuario\Desktop\POO2021-1STQ\Herz_El_Imparable\cmake-build-debug\Herz_El_Imparable.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

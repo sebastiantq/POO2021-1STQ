@@ -8,12 +8,12 @@ Arma::Arma(){
 
 }
 
-float Arma::getDano(){
-    return 0;
+int Arma::getDano(){
+    return dano;
 }
 
-float Arma::getResistencia(){
-    return 0;
+int Arma::getResistencia(){
+    return resistencia;
 }
 
 void Arma::setTipoArma(TipoArma nuevoTipoArma){

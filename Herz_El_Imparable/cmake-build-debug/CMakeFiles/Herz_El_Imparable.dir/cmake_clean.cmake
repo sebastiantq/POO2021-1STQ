@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Herz_El_Imparable.dir/Model/Items/Armas/Arma.cpp.obj"
   "CMakeFiles/Herz_El_Imparable.dir/Model/Items/Armas/Espada/Espada.cpp.obj"
   "CMakeFiles/Herz_El_Imparable.dir/Model/Items/Armas/Hacha/Hacha.cpp.obj"
+  "CMakeFiles/Herz_El_Imparable.dir/Model/Items/Armas/PocionDano/PocionDano.cpp.obj"
   "CMakeFiles/Herz_El_Imparable.dir/Model/Items/ArtefactoLegendario.cpp.obj"
   "CMakeFiles/Herz_El_Imparable.dir/Model/Items/Item.cpp.obj"
   "CMakeFiles/Herz_El_Imparable.dir/Model/Items/Pociones/Curacion/Curacion.cpp.obj"

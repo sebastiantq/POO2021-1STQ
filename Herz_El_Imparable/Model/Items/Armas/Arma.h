@@ -7,18 +7,18 @@
 
 #include "../Item.h"
 
-enum TipoArma {HACHA, ESPADA};
+enum TipoArma {HACHA, ESPADA, POCION_DANO};
 
 class Arma: public Item {
-private:
-    TipoArma tipoArma;
-    float dano, resistencia;
-public:
-    Arma();
-    void setTipoArma(TipoArma nuevoTipoArma);
-    float getDano();
-    float getResistencia();
-    ~Arma();
+    protected:
+        TipoArma tipoArma;
+        int dano, resistencia;
+    public:
+        Arma();
+        void setTipoArma(TipoArma nuevoTipoArma);
+        int getDano();
+        int getResistencia();
+        ~Arma();
 };
 
 

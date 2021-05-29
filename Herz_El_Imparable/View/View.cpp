@@ -180,8 +180,6 @@ void View::escucharTeclas(){
 
                     // Formula larga para obtener el punto hacia jugador sin almacenar la posicion en variables
                     Jugador* jugador = (Jugador*)(controller.getMazmorra().getEspacio(get<0>(controller.getMazmorra().getPosicionJugador()), get<1>(controller.getMazmorra().getPosicionJugador())));
-
-                    jugador->mostrarInventario();
                     jugador->desplegarMenuInventario();
 
                     controller.mostrarMazmorra(0);
@@ -219,7 +217,7 @@ void View::escucharTeclas(){
                     controller.teclaAbajo();
                     controller.mostrarMazmorra(0);
                     break;
-                    // WASD Controlls
+                // WASD Controlls
                 case 'w':
                     // ARRIBA
                     cout << endl << "ARRIBA" << endl;

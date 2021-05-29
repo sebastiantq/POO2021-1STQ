@@ -11,7 +11,7 @@ class Fuerza : public Pocion{
     private:
     public:
         Fuerza();
-        void consumir(Espacio* jugador) override;
+        void consumir(Espacio* jugadorEntidad) override;
         virtual bool interaccion() override;
         ~Fuerza();
 };

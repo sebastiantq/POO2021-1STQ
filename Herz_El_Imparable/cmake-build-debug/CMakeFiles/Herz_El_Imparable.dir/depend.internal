@@ -25,16 +25,22 @@ CMakeFiles/Herz_El_Imparable.dir/Model/Entidades/Enemigos/Biter/Biter.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/Biter.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/Biter.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Entidades/Enemigos/Enemigo.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
@@ -46,31 +52,43 @@ CMakeFiles/Herz_El_Imparable.dir/Model/Entidades/Enemigos/HauntedWater/HauntedWa
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/HauntedWater.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/HauntedWater.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/HauntedWater.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/Troll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Entidades/Enemigos/Troll/Troll.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/Troll.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/Troll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Entidades/Entidad.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
@@ -104,6 +122,12 @@ CMakeFiles/Herz_El_Imparable.dir/Model/Items/Armas/Hacha/Hacha.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Hacha/Hacha.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Hacha/Hacha.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
+CMakeFiles/Herz_El_Imparable.dir/Model/Items/Armas/PocionDano/PocionDano.cpp.obj
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/PocionDano/PocionDano.cpp
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/PocionDano/PocionDano.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Items/ArtefactoLegendario.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/ArtefactoLegendario.cpp
@@ -114,13 +138,19 @@ CMakeFiles/Herz_El_Imparable.dir/Model/Items/Item.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Items/Pociones/Curacion/Curacion.cpp.obj
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Curacion/Curacion.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Curacion/Curacion.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Items/Pociones/Fuerza/Fuerza.cpp.obj
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Espacio.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Fuerza/Fuerza.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Fuerza/Fuerza.h

@@ -8,6 +8,8 @@ Hacha::Hacha(){
     setImagen('H');
     setTipo(ARMA);
     setTipoArma(HACHA);
+    dano = 5;
+    resistencia = 4;
     interactivo = true;
     checked = true;
 }

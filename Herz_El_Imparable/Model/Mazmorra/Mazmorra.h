@@ -34,6 +34,7 @@ class Mazmorra {
         Mazmorra();
         void inicializarMazmorra(Dificultades dificultadMazmorra);
         void actualizarPosicionMazmorra(int fila, int columna, Espacio* tipoEspacio);
+        void abrirPuerta();
         void mostrarMazmorra(int desdeFila);
         Espacio* getEspacio(int fila, int columna);
         Dificultades getDificultad();

@@ -9,7 +9,7 @@
 #include <cstdio>
 #include <conio.h>
 
-enum EstadoJuego {MENU_PRINCIPAL, ESCOGIENDO_DIFICULTAD, JUGANDO, PAUSA};
+enum EstadoJuego {MENU_PRINCIPAL, ESCOGIENDO_DIFICULTAD, JUGANDO, EN_COMBATE, PAUSA};
 
 class Controller {
     private:

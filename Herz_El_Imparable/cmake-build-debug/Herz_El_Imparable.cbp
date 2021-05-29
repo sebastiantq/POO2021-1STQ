@@ -166,6 +166,12 @@
 		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Hacha/Hacha.h">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/PocionDano/PocionDano.cpp">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
+		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/PocionDano/PocionDano.h">
+			<Option target="Herz_El_Imparable"/>
+		</Unit>
 		<Unit filename="C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/ArtefactoLegendario.cpp">
 			<Option target="Herz_El_Imparable"/>
 		</Unit>

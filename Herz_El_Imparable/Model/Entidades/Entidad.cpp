@@ -10,17 +10,25 @@ Entidad::Entidad(){
 }
 
 int Entidad::getPuntosVida(){
-    return 0;
+    return puntosVida;
+}
+
+int Entidad::getPuntosVidaMaximos(){
+    return puntosVidaMaximos;
 }
 
 int Entidad::getPuntosAtaque(){
-    return 0;
+    return puntosAtaque;
 }
 
-void Entidad::setPuntosVida(){
-
+void Entidad::setPuntosVida(int nuevosPuntosDeVida){
+    puntosVida = nuevosPuntosDeVida;
 }
 
-void Entidad::setPuntosAtaque(){
+void Entidad::setPuntosVidaMaximos(int nuevosPuntosDeVidaMaximos){
+    puntosVidaMaximos = nuevosPuntosDeVidaMaximos;
+}
 
+void Entidad::setPuntosAtaque(int nuevosPuntosAtaque){
+    puntosAtaque = nuevosPuntosAtaque;
 }

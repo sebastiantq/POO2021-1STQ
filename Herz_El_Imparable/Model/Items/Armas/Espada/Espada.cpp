@@ -8,6 +8,8 @@ Espada::Espada(){
     setImagen('E');
     setTipo(ARMA);
     setTipoArma(ESPADA);
+    dano = 7;
+    resistencia = 5;
     interactivo = true;
     checked = true;
 }
