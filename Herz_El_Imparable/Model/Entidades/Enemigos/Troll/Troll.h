@@ -11,8 +11,9 @@ class Troll : public Enemigo {
     private:
     public:
         Troll();
-        virtual bool combate(Entidad* jugadorEntidad) override;
-        virtual void atacar(int fila, int columna) override;
+        bool combate(Entidad* jugadorEntidad) override;
+        int ataqueUno() override;
+        int ataqueDos() override;
         ~Troll();
 };
 

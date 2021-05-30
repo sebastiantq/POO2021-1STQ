@@ -6,7 +6,9 @@
 
 
 Entidad::Entidad(){
-
+    puntosAtaque = 0;
+    puntosVida = 0;
+    puntosVidaMaximos = 0;
 }
 
 int Entidad::getPuntosVida(){

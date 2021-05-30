@@ -13,6 +13,7 @@ CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Espacio
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Items\Armas\Arma.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Items\Armas\Espada\Espada.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Items\Armas\Hacha\Hacha.h
+CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Items\ArtefactoLegendario.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Items\Item.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Items\Pociones\Curacion\Curacion.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Items\Pociones\Fuerza\Fuerza.h
@@ -170,6 +171,7 @@ CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Espac
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Items\Armas\Arma.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Items\Armas\Espada\Espada.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Items\Armas\Hacha\Hacha.h
+CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Items\ArtefactoLegendario.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Items\Item.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Items\Pociones\Curacion\Curacion.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Items\Pociones\Fuerza\Fuerza.h
@@ -193,6 +195,7 @@ CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Espacio.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Items\Armas\Arma.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Items\Armas\Espada\Espada.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Items\Armas\Hacha\Hacha.h
+CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Items\ArtefactoLegendario.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Items\Item.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Items\Pociones\Curacion\Curacion.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Items\Pociones\Fuerza\Fuerza.h
@@ -213,6 +216,7 @@ CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Espacio.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Items\Armas\Arma.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Items\Armas\Espada\Espada.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Items\Armas\Hacha\Hacha.h
+CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Items\ArtefactoLegendario.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Items\Item.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Items\Pociones\Curacion\Curacion.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Items\Pociones\Fuerza\Fuerza.h

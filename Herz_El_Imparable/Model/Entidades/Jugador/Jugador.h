@@ -11,16 +11,17 @@
 
 class Jugador: public Entidad {
     private:
-        Espacio* inventario[2][5], armaEquipada;
+        Espacio* inventario[2][5];
+        Espacio* armaEquipada;
         void inicializarInventario();
-        void menuInventario(int opcion);
     public:
         Jugador();
-        virtual void atacar(int fila, int columna) override;
         void mostrarInventario();
+        void menuInventario(int opcion);
         void actualizarPosicionInventario(int fila, int columna, Espacio* nuevoItem);
         bool muerte(bool dificultadNormal);
         void desplegarMenuInventario();
+        void desplegarMenuAtaque();
         void setArmaEquipada(Espacio* nuevaArmaEquipada);
         Espacio* getArmaEquipada();
         Espacio* getItemInventario(int fila, int columna);

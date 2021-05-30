@@ -89,9 +89,31 @@ void Controller::interactuar(int fila, int columna){
         Enemigo* enemigoACombatir = (Enemigo*)(mazmorra.getEspacio(fila, columna)); // Downcasting para acceder a metodos de enemigo
 
         if(enemigoACombatir->combate(jugador)){
-            // Inicia el combate
-            jugador->actualizarPosicionInventario(get<1>(posicionDisponibleInventario), get<1>(posicionDisponibleInventario), mazmorra.getEspacio(fila, columna));
-            mazmorra.actualizarPosicionMazmorra(fila, columna, new Espacio());
+            // Herz ha ganado el combate
+            cout << endl << "¡Has ganado el combate! bien hecho" << endl;
+
+            if(!mazmorra.artefactoLegendarioSpawneado()){
+                if(mazmorra.getEspacio(fila, columna)->getTipo() == JEFE){
+                    // Dependiendo de la cantidad de jefes vivos tiene mas o menos probabilidad de obtener el artefacto legendario
+                    if(mazmorra.getCantidadJefes() == 3){
+                        if(rand() % 1 == 0){
+                            mazmorra.actualizarPosicionMazmorra(fila, columna, new ArtefactoLegendario());
+                        }else{
+                            mazmorra.actualizarPosicionMazmorra(fila, columna, new Espacio());
+                        }
+                    }else if(mazmorra.getCantidadJefes() == 2){
+                        if(rand() % 2 == 2){
+                            mazmorra.actualizarPosicionMazmorra(fila, columna, new ArtefactoLegendario());
+                        }else{
+                            mazmorra.actualizarPosicionMazmorra(fila, columna, new Espacio());
+                        }
+                    }else{
+                        mazmorra.actualizarPosicionMazmorra(fila, columna, new ArtefactoLegendario());
+                    }
+                }else{
+                    mazmorra.actualizarPosicionMazmorra(fila, columna, new Espacio());
+                }
+            }
         }else{
             // Ha muerto Herz
             if(jugador->muerte(mazmorra.getDificultad())){

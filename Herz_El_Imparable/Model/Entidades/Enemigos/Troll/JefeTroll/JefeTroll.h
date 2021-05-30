@@ -12,7 +12,8 @@ class JefeTroll : public Troll{
     private:
         JefeTroll();
         bool combate(Entidad* jugadorEntidad) override;
-        virtual void atacar(int fila, int columna) override;
+        int ataqueUno() override;
+        int ataqueDos() override;
         ~JefeTroll();
 };
 

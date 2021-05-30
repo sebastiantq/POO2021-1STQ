@@ -15,6 +15,8 @@ class Enemigo: public Entidad {
     public:
         Enemigo();
         virtual bool combate(Entidad* jugadorEntidad) = 0;
+        virtual int ataqueUno() = 0;
+        virtual int ataqueDos() = 0;
         void setTipoEnemigo(TipoEnemigo nuevoTipoEnemigo);
         TipoEnemigo getTipoEnemigo();
         ~Enemigo();

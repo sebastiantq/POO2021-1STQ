@@ -11,8 +11,9 @@ class Biter : public Enemigo {
     private:
     public:
         Biter();
-        virtual bool combate(Entidad* jugadorEntidad) override;
-        virtual void atacar(int fila, int columna) override;
+        bool combate(Entidad* jugadorEntidad) override;
+        int ataqueUno() override;
+        int ataqueDos() override;
         ~Biter();
 };
 

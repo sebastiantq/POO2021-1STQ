@@ -14,6 +14,7 @@ CMakeFiles/Herz_El_Imparable.dir/Controller/Controller.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Espada/Espada.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Hacha/Hacha.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/ArtefactoLegendario.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Curacion/Curacion.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Fuerza/Fuerza.h
@@ -171,6 +172,7 @@ CMakeFiles/Herz_El_Imparable.dir/Model/Mazmorra/Mazmorra.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Espada/Espada.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Hacha/Hacha.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/ArtefactoLegendario.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Curacion/Curacion.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Fuerza/Fuerza.h
@@ -194,6 +196,7 @@ CMakeFiles/Herz_El_Imparable.dir/View/View.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Espada/Espada.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Hacha/Hacha.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/ArtefactoLegendario.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Curacion/Curacion.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Fuerza/Fuerza.h
@@ -214,6 +217,7 @@ CMakeFiles/Herz_El_Imparable.dir/main.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Arma.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Espada/Espada.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Armas/Hacha/Hacha.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/ArtefactoLegendario.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Item.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Curacion/Curacion.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Fuerza/Fuerza.h

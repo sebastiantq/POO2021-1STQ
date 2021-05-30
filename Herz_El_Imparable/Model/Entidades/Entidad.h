@@ -13,10 +13,8 @@ class Entidad: public Espacio {
         int puntosVida;
         int puntosVidaMaximos;
         int puntosAtaque;
-        Item inventario[10];
     public:
         Entidad();
-        virtual void atacar(int fila, int columna) = 0;
         int getPuntosVida();
         int getPuntosVidaMaximos();
         int getPuntosAtaque();

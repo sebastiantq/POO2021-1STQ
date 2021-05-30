@@ -14,6 +14,7 @@
 #include "../Entidades/Enemigos/HauntedWater/HauntedWater.h"
 #include "../Entidades/Enemigos/Troll/Troll.h"
 #include "../Items/Item.h"
+#include "../Items/ArtefactoLegendario.h"
 #include "../Items/Armas/Hacha/Hacha.h"
 #include "../Items/Armas/Espada/Espada.h"
 #include "../Items/Pociones/Curacion/Curacion.h"
@@ -39,6 +40,8 @@ class Mazmorra {
         Espacio* getEspacio(int fila, int columna);
         Dificultades getDificultad();
         tuple<int, int> getPosicionJugador();
+        bool artefactoLegendarioSpawneado();
+        int getCantidadJefes();
         void setDificultad(Dificultades nuevaDificultad);
 };
 

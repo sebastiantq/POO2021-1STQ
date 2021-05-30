@@ -13,7 +13,8 @@ Jugador::Jugador(){
     inicializarInventario();
     setPuntosVida(10);
     setPuntosVidaMaximos(10);
-    setPuntosAtaque(0);
+    setPuntosAtaque(2);
+    setArmaEquipada(new Espacio());
 }
 
 void Jugador::inicializarInventario(){
@@ -22,10 +23,6 @@ void Jugador::inicializarInventario(){
             actualizarPosicionInventario(fila, columna, new Espacio());
         }
     }
-}
-
-void Jugador::atacar(int fila, int columna){
-
 }
 
 void Jugador::mostrarInventario(){
@@ -71,9 +68,9 @@ bool Jugador::muerte(bool dificultadNormal){
 void Jugador::desplegarMenuInventario(){
     int opcion;
 
-    mostrarInventario();
-
     do{
+        mostrarInventario();
+
         cout << endl << "-- Menu inventario --" << endl << endl;
         cout << "1. Soltar item" << endl;
         cout << "2. Consumir pocion" << endl;
@@ -85,6 +82,26 @@ void Jugador::desplegarMenuInventario(){
 
         menuInventario(opcion);
     } while (opcion != 0);
+}
+
+void Jugador::desplegarMenuAtaque(){
+    int opcion;
+
+    do{
+        mostrarInventario();
+
+        cout << endl << "-- Menu ataque --" << endl << endl;
+        cout << "1. Atacar" << endl;
+        cout << "2. Consumir pocion" << endl;
+        cout << "3. Cambiar arma" << endl << endl;
+
+        cout << "Opcion: ";
+        cin >> opcion;
+
+        if(opcion != 1){
+            menuInventario(opcion);
+        }
+    } while (opcion != 1);
 }
 
 void Jugador::menuInventario(int opcion){
@@ -160,19 +177,30 @@ void Jugador::menuInventario(int opcion){
                 cin >> columna;
             }while(columna < 0 || columna > 4);
 
-            Arma* arma = dynamic_cast<Arma*>(getItemInventario(fila, columna));
+            if(getItemInventario(fila, columna)->getTipo() == ARMA){
+                Arma* armaAEquipar = (Arma*)(getItemInventario(fila, columna));
+                Arma* armaADesequipar = (Arma*)(getArmaEquipada());
+                
+                actualizarPosicionInventario(fila, columna, armaADesequipar);
+                setArmaEquipada(armaAEquipar);
 
-            if(arma){
-                Espacio* espacioTemporal = getItemInventario(fila, columna);
-                actualizarPosicionInventario(fila, columna, getArmaEquipada());
-                setArmaEquipada(espacioTemporal);
+                if(armaADesequipar->getTipo() == ARMA){
+                    // Añade los puntos de ataque del arma a los puntos de ataque de Herz
+                    setPuntosAtaque(getPuntosAtaque() + armaAEquipar->getDano() - armaADesequipar->getDano());
 
-                // Añade los puntos de ataque del arma a los puntos de ataque de Herz
-                setPuntosAtaque(getPuntosAtaque() + ((Arma*)(espacioTemporal))->getDano());
+                    // Añade los puntos de resistencia del arma a los puntos de vida de Herz
+                    setPuntosVidaMaximos(getPuntosVidaMaximos() + armaAEquipar->getResistencia() - armaADesequipar->getResistencia());
+                }else{
+                    // Añade los puntos de ataque del arma a los puntos de ataque de Herz
+                    setPuntosAtaque(getPuntosAtaque() + armaAEquipar->getDano());
+
+                    // Añade los puntos de resistencia del arma a los puntos de vida de Herz
+                    setPuntosVidaMaximos(getPuntosVidaMaximos() + armaAEquipar->getResistencia());
+                }
 
                 cout << endl << "Arma equipada" << endl;
             }else{
-                cout << endl << "El elemento seleccionado no es un arma" << endl;
+                throw std::domain_error("El elemento seleccionado no es un arma\n");
             }
 
             break;
@@ -184,11 +212,11 @@ void Jugador::menuInventario(int opcion){
 }
 
 void Jugador::setArmaEquipada(Espacio* nuevaArmaEquipada){
-    armaEquipada = *nuevaArmaEquipada;
+    armaEquipada = nuevaArmaEquipada;
 }
 
 Espacio* Jugador::getArmaEquipada(){
-    return &armaEquipada;
+    return armaEquipada;
 }
 
 

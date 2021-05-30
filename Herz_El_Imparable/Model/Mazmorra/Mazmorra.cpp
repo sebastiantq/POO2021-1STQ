@@ -346,6 +346,44 @@ tuple<int, int> Mazmorra::getPosicionJugador(){
     return mazmorra[0][0]->getPosicion();
 }
 
+bool Mazmorra::artefactoLegendarioSpawneado(){
+    Jugador* jugador = (Jugador*)(getEspacio(get<0>(getPosicionJugador()), get<1>(getPosicionJugador())));
+
+    // Se verifica primero todo el mapa
+    for (int fila = 0; fila < 15; fila++) {
+        for (int columna = 0; columna < 15; columna++) {
+            if(mazmorra[fila][columna]->getTipo() == ARTEFACTO_LEGENDARIO){
+                return true;
+            }
+        }
+    }
+
+    // Se verifica luego el inventario del jugador
+    for (int fila = 0; fila < 2; fila++) {
+        for (int columna = 0; columna < 5; columna++) {
+            if(jugador->getItemInventario(fila, columna)->getTipo() == ARTEFACTO_LEGENDARIO){
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
+int Mazmorra::getCantidadJefes(){
+    int cantidadDeJefes = 0;
+
+    for (int fila = 0; fila < 15; fila++) {
+        for (int columna = 0; columna < 15; columna++) {
+            if(mazmorra[fila][columna]->getTipo() == JEFE){
+                cantidadDeJefes++;
+            }
+        }
+    }
+
+    return cantidadDeJefes;
+}
+
 void Mazmorra::setDificultad(Dificultades nuevaDificultad){
     dificultad = nuevaDificultad;
 }
