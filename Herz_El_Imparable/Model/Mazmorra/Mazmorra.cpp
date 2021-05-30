@@ -170,24 +170,56 @@ void Mazmorra::algoritmoDeRelleno(int tamanoMaximo) {
 }
 
 void Mazmorra::algoritmoDePosicionamientoDeEntidades(Dificultades dificultadMazmorra){
-    int enemigosMaximos, enemigoActual = 0, tamanoMaximo, probabilidadEnemigo, tipoEnemigo;
+    int enemigosMaximos, enemigoActual = 0, jefesMaximos, jefeActual = 0, tamanoMaximo, probabilidadEnemigo, tipoEnemigo;
     bool actualizado = false;
 
     if(dificultadMazmorra == FACIL){
         tamanoMaximo = 10;
-        enemigosMaximos = 15;
+        enemigosMaximos = 12;
+        jefesMaximos = 1;
     }else{
         tamanoMaximo = 15;
-        enemigosMaximos = 25;
+        enemigosMaximos = 22;
+        jefesMaximos = 3;
     }
 
-    while (enemigoActual < enemigosMaximos){
-        if(actualizado == false){
-            for (int fila = tamanoMaximo - 1; fila >= 0; fila--) {
-                for (int columna = 0; columna < tamanoMaximo; columna++) {
+    while (jefeActual < jefesMaximos) {
+        for (int fila = tamanoMaximo - 1; fila >= 0; fila--) {
+            for (int columna = 0; columna < tamanoMaximo; columna++) {
+                if (!actualizado) {
                     if(mazmorra[fila][columna]->getTipo() == ESPACIO){
                         probabilidadEnemigo = 1 + rand() % 100;
-                        if(probabilidadEnemigo < 35){
+                        if(probabilidadEnemigo < 25){
+                            tipoEnemigo = 1 + rand() % 3;
+
+                            if(tipoEnemigo == 1){
+                                actualizarPosicionMazmorra(fila, columna, new JefeBiter());
+                            }else if(tipoEnemigo == 2){
+                                actualizarPosicionMazmorra(fila, columna, new JefeHauntedWater());
+                            }else{
+                                actualizarPosicionMazmorra(fila, columna, new JefeTroll());
+                            }
+
+                            jefeActual++;
+                            actualizado = true;
+                        }
+                    }
+                }
+            }
+        }
+
+        actualizado = false;
+    }
+
+    actualizado = false;
+
+    while (enemigoActual < enemigosMaximos){
+        for (int fila = tamanoMaximo - 1; fila >= 0; fila--) {
+            for (int columna = 0; columna < tamanoMaximo; columna++) {
+                if(!actualizado){
+                    if(mazmorra[fila][columna]->getTipo() == ESPACIO){
+                        probabilidadEnemigo = 1 + rand() % 100;
+                        if(probabilidadEnemigo < 10){
                             tipoEnemigo = 1 + rand() % 3;
 
                             if(tipoEnemigo == 1){
@@ -204,9 +236,9 @@ void Mazmorra::algoritmoDePosicionamientoDeEntidades(Dificultades dificultadMazm
                     }
                 }
             }
-        }else{
-            enemigoActual++;
         }
+
+        actualizado = false;
     }
 }
 
@@ -262,6 +294,7 @@ void Mazmorra::actualizarPosicionMazmorra(int fila, int columna, Espacio* tipoEs
 
 void Mazmorra::abrirPuerta(){
     int tamanoMaximo;
+    bool abierta = false;
 
     if(getDificultad() == FACIL){
         tamanoMaximo = 10;
@@ -269,25 +302,45 @@ void Mazmorra::abrirPuerta(){
         tamanoMaximo = 15;
     }
 
-    for (int fila = tamanoMaximo - 1; fila >= 0; fila--) {
-        for (int columna = 0; columna < tamanoMaximo; columna++) {
-            if(fila == tamanoMaximo - 1 || fila == 0 || columna == tamanoMaximo - 1 || columna == 0){
-                if(getEspacio(fila + 1, columna)->getTipo() == ESPACIO){
-                    // Arriba
-                    actualizarPosicionMazmorra(fila + 1, columna, new Espacio());
-                    getEspacio(fila + 1, columna)->setTipo(SALIDA);
-                }else if(getEspacio(fila, columna + 1)->getTipo() == ESPACIO){
-                    // Derecha
-                    actualizarPosicionMazmorra(fila, columna + 1, new Espacio());
-                    getEspacio(fila, columna + 1)->setTipo(SALIDA);
-                }else if(getEspacio(fila - 1, columna)->getTipo() == ESPACIO){
-                    // Abajo
-                    actualizarPosicionMazmorra(fila - 1, columna, new Espacio());
-                    getEspacio(fila - 1, columna)->setTipo(SALIDA);
-                }else if(getEspacio(fila, columna - 1)->getTipo() == ESPACIO){
-                    // Izquierda
-                    actualizarPosicionMazmorra(fila, columna - 1, new Espacio());
-                    getEspacio(fila, columna - 1)->setTipo(SALIDA);
+    while(!abierta){
+        for (int fila = tamanoMaximo - 1; fila >= 0; fila--) {
+            for (int columna = 0; columna < tamanoMaximo; columna++) {
+                if(fila == tamanoMaximo - 1 || fila == 0 || columna == tamanoMaximo - 1 || columna == 0){
+                    if(!abierta){
+                        try {
+                            if(getEspacio(fila + 1, columna)->getTipo() == ESPACIO){
+                                // Arriba
+                                actualizarPosicionMazmorra(fila, columna, new Espacio());
+                                getEspacio(fila, columna)->setTipo(SALIDA);
+                                getEspacio(fila, columna)->setInteractivo(true);
+                                abierta = true;
+                                cout << "GENERADA - Fila: " << fila << ", Columna: " << columna << endl;
+                            }else if(getEspacio(fila, columna + 1)->getTipo() == ESPACIO){
+                                // Derecha
+                                actualizarPosicionMazmorra(fila, columna, new Espacio());
+                                getEspacio(fila, columna)->setTipo(SALIDA);
+                                getEspacio(fila, columna)->setInteractivo(true);
+                                abierta = true;
+                                cout << "GENERADA - Fila: " << fila << ", Columna: " << columna + 1 << endl;
+                            }else if(getEspacio(fila - 1, columna)->getTipo() == ESPACIO){
+                                // Abajo
+                                actualizarPosicionMazmorra(fila, columna, new Espacio());
+                                getEspacio(fila, columna)->setTipo(SALIDA);
+                                getEspacio(fila, columna)->setInteractivo(true);
+                                abierta = true;
+                                cout << "GENERADA - Fila: " << fila << ", Columna: " << columna << endl;
+                            }else if(getEspacio(fila, columna - 1)->getTipo() == ESPACIO){
+                                // Izquierda
+                                actualizarPosicionMazmorra(fila, columna, new Espacio());
+                                getEspacio(fila, columna)->setTipo(SALIDA);
+                                getEspacio(fila, columna)->setInteractivo(true);
+                                abierta = true;
+                                cout << "GENERADA - Fila: " << fila << ", Columna: " << columna << endl;
+                            }
+                        }catch(int error){
+                            // El espacio inspeccionado excede los limites del array
+                        }
+                    }
                 }
             }
         }

@@ -7,6 +7,7 @@
 
 JefeBiter::JefeBiter(){
     setImagen('B');
+    setTipo(JEFE);
     setTipoEnemigo(JEFE_BITER);
     setPuntosVida(15);
     setPuntosVidaMaximos(15);

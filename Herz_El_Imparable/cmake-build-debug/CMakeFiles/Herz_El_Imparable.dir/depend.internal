@@ -5,8 +5,11 @@ CMakeFiles/Herz_El_Imparable.dir/Controller/Controller.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.cpp
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/Biter.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/HauntedWater.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/Troll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
@@ -163,8 +166,11 @@ CMakeFiles/Herz_El_Imparable.dir/Model/Items/Pociones/Pocion.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Items/Pociones/Pocion.h
 CMakeFiles/Herz_El_Imparable.dir/Model/Mazmorra/Mazmorra.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/Biter.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/HauntedWater.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/Troll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
@@ -187,8 +193,11 @@ CMakeFiles/Herz_El_Imparable.dir/Model/Mazmorra/Pared.cpp.obj
 CMakeFiles/Herz_El_Imparable.dir/View/View.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/Biter.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/HauntedWater.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/Troll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h
@@ -208,8 +217,11 @@ CMakeFiles/Herz_El_Imparable.dir/View/View.cpp.obj
 CMakeFiles/Herz_El_Imparable.dir/main.cpp.obj
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Controller/Controller.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/Biter.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Biter/JefeBiter/JefeBiter.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Enemigo.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/HauntedWater.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/HauntedWater/JefeHauntedWater/JefeHauntedWater.h
+ C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/JefeTroll/JefeTroll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Enemigos/Troll/Troll.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Entidad.h
  C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/Model/Entidades/Jugador/Jugador.h

@@ -23,12 +23,16 @@ void Espacio::setTipo(Tipo nuevoTipo){
     tipo = nuevoTipo;
 }
 
+void Espacio::setImagen(char nuevaImagen){
+    imagen = nuevaImagen;
+}
+
 void Espacio::setChecked(bool valor){
     checked = valor;
 }
 
-void Espacio::setImagen(char nuevaImagen){
-    imagen = nuevaImagen;
+void Espacio::setInteractivo(bool nuevoInteractivo){
+    interactivo = nuevoInteractivo;
 }
 
 bool Espacio::getChecked(){

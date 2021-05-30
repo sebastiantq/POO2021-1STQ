@@ -4,8 +4,11 @@
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Controller\Controller.cpp
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Controller\Controller.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Entidades\Enemigos\Biter\Biter.h
+CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Entidades\Enemigos\Enemigo.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Entidades\Enemigos\HauntedWater\HauntedWater.h
+CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.h
+CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Entidades\Enemigos\Troll\Troll.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Entidades\Entidad.h
 CMakeFiles\Herz_El_Imparable.dir\Controller\Controller.cpp.obj: ..\Model\Entidades\Jugador\Jugador.h
@@ -162,8 +165,11 @@ CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Pocion.cpp.obj: ..\Model\I
 CMakeFiles\Herz_El_Imparable.dir\Model\Items\Pociones\Pocion.cpp.obj: ..\Model\Items\Pociones\Pocion.h
 
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Entidades\Enemigos\Biter\Biter.h
+CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Entidades\Enemigos\Enemigo.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Entidades\Enemigos\HauntedWater\HauntedWater.h
+CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.h
+CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Entidades\Enemigos\Troll\Troll.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Entidades\Entidad.h
 CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Mazmorra.cpp.obj: ..\Model\Entidades\Jugador\Jugador.h
@@ -186,8 +192,11 @@ CMakeFiles\Herz_El_Imparable.dir\Model\Mazmorra\Pared.cpp.obj: ..\Model\Mazmorra
 
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Controller\Controller.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Entidades\Enemigos\Biter\Biter.h
+CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Entidades\Enemigos\Enemigo.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Entidades\Enemigos\HauntedWater\HauntedWater.h
+CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.h
+CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Entidades\Enemigos\Troll\Troll.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Entidades\Entidad.h
 CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\Model\Entidades\Jugador\Jugador.h
@@ -207,8 +216,11 @@ CMakeFiles\Herz_El_Imparable.dir\View\View.cpp.obj: ..\View\View.h
 
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Controller\Controller.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Entidades\Enemigos\Biter\Biter.h
+CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Entidades\Enemigos\Biter\JefeBiter\JefeBiter.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Entidades\Enemigos\Enemigo.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Entidades\Enemigos\HauntedWater\HauntedWater.h
+CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Entidades\Enemigos\HauntedWater\JefeHauntedWater\JefeHauntedWater.h
+CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Entidades\Enemigos\Troll\JefeTroll\JefeTroll.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Entidades\Enemigos\Troll\Troll.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Entidades\Entidad.h
 CMakeFiles\Herz_El_Imparable.dir\main.cpp.obj: ..\Model\Entidades\Jugador\Jugador.h

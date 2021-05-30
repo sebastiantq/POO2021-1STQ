@@ -8,8 +8,8 @@
 #include "../Troll.h"
 
 class JefeTroll : public Troll{
-    public:
     private:
+    public:
         JefeTroll();
         bool combate(Entidad* jugadorEntidad) override;
         int ataqueUno() override;

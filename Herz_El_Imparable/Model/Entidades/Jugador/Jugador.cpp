@@ -180,7 +180,7 @@ void Jugador::menuInventario(int opcion){
             if(getItemInventario(fila, columna)->getTipo() == ARMA){
                 Arma* armaAEquipar = (Arma*)(getItemInventario(fila, columna));
                 Arma* armaADesequipar = (Arma*)(getArmaEquipada());
-                
+
                 actualizarPosicionInventario(fila, columna, armaADesequipar);
                 setArmaEquipada(armaAEquipar);
 

@@ -7,6 +7,7 @@
 
 JefeTroll::JefeTroll(){
     setImagen('T');
+    setTipo(JEFE);
     setTipoEnemigo(JEFE_TROLL);
     setPuntosVida(11);
     setPuntosVidaMaximos(11);

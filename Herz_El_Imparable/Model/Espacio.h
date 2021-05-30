@@ -35,6 +35,7 @@ class Espacio {
         void setTipo(Tipo nuevoTipo);
         void setImagen(char nuevaImagen);
         void setChecked(bool valor);
+        void setInteractivo(bool nuevoInteractivo);
         tuple<int, int> getPosicion();
         Tipo getTipo();
         char getImagen();

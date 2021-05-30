@@ -7,6 +7,7 @@
 
 JefeHauntedWater::JefeHauntedWater(){
     setImagen('W');
+    setTipo(JEFE);
     setTipoEnemigo(JEFE_HAUNTED_WATER);
     setPuntosVida(13);
     setPuntosVidaMaximos(13);

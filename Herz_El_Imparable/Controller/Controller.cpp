@@ -54,7 +54,7 @@ void Controller::interactuar(int fila, int columna){
     Jugador* jugador = (Jugador*)(espacioJugador); // Downcasting exitoso
     int randomNumber = rand() % 2; // Para frases al final del juego
 
-    if(mazmorra.getEspacio(fila, columna)->getTipo() == ARMA || mazmorra.getEspacio(fila, columna)->getTipo() == POCION || mazmorra.getEspacio(fila, columna)->getTipo() == ARTEFACTO_LEGENDARIO){
+    if(mazmorra.getEspacio(fila, columna)->getTipo() == ARMA || mazmorra.getEspacio(fila, columna)->getTipo() == POCION){
         // Es un Item
         jugador->mostrarInventario();
 
@@ -71,11 +71,13 @@ void Controller::interactuar(int fila, int columna){
     }else if(mazmorra.getEspacio(fila, columna)->getTipo() == ARTEFACTO_LEGENDARIO) {
         // Has ganado, encontraste el objeto legendario
         mazmorra.abrirPuerta();
+        mazmorra.actualizarPosicionMazmorra(fila, columna, new Espacio());
+
         cout << endl << "¡Lo has conseguido! Una puerta ha sido abierta en la mazmorra, sal y salva a tu reino, honorable Herz" << endl;
     }else if(mazmorra.getEspacio(fila, columna)->getTipo() == SALIDA) {
         // Herz ha salido
         if(randomNumber == 0){
-            cout << endl << "Felicidades, Herz ha conseguido llevar el artefacto y ha curado a una damicela peculiarmente bella, ¿será este el fin del hombre araña?" << endl;
+            cout << endl << "Herz ha conseguido llevar el artefacto y ha curado a una damicela peculiarmente bella, ¿será este el fin del hombre araña?" << endl;
         }else if(randomNumber == 1){
             cout << endl << "¡Oh no! Herz ha encontrado un troll de camino a casa, se están riendo mucho, el troll se hace llamar sonzo, goncho, o algo así, bahh, seguro se hacen amigos y se lo lleva al reino" << endl;
         }else if(randomNumber == 2){
@@ -83,6 +85,7 @@ void Controller::interactuar(int fila, int columna){
             setEstadoJuego(ESCOGIENDO_DIFICULTAD);
             return;
         }
+        cout << endl << "Felicidades, has terminado el juego";
         setEstadoJuego(MENU_PRINCIPAL);
     }else if(mazmorra.getEspacio(fila, columna)->getTipo() == ENEMIGO || mazmorra.getEspacio(fila, columna)->getTipo() == JEFE){
         // Es un Enemigo
