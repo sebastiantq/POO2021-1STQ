@@ -210,6 +210,9 @@ Herz_El_Imparable_BINARY_DIR:STATIC=C:/Users/usuario/Desktop/POO2021-1STQ/Herz_E
 //Value Computed by CMake
 Herz_El_Imparable_SOURCE_DIR:STATIC=C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable
 
+//The directory containing a CMake configuration file for SFML.
+SFML_DIR:PATH=SFML_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries

@@ -14,6 +14,14 @@ void Mazmorra::inicializarMazmorra(Dificultades dificultadMazmorra){
 
     limpiarMazmorra();
 
+    cout << endl << "El pacífico reino de Cyradil fue golpeado por una maldición que hizo "
+                    "que la gente cayera enferma, esto pone al reino en un terrible peligro "
+                    "de ser invadido por reinos enemigos. El caballero Herz, que en el momento "
+                    "de la maldición se encontraba por fuera del reino, es el único capaz de "
+                    "salvar el reino de la perdición, para esto deberá buscar un legendario "
+                    "artefacto perdido en las mazmorras del norte para purificar al reino de "
+                    "Cyradil de la maldición." << endl;
+
     if(dificultadMazmorra == FACIL){
         tamanoMaximo = 10;
 
@@ -314,28 +322,24 @@ void Mazmorra::abrirPuerta(){
                                 getEspacio(fila, columna)->setTipo(SALIDA);
                                 getEspacio(fila, columna)->setInteractivo(true);
                                 abierta = true;
-                                cout << "GENERADA - Fila: " << fila << ", Columna: " << columna << endl;
                             }else if(getEspacio(fila, columna + 1)->getTipo() == ESPACIO){
                                 // Derecha
                                 actualizarPosicionMazmorra(fila, columna, new Espacio());
                                 getEspacio(fila, columna)->setTipo(SALIDA);
                                 getEspacio(fila, columna)->setInteractivo(true);
                                 abierta = true;
-                                cout << "GENERADA - Fila: " << fila << ", Columna: " << columna + 1 << endl;
                             }else if(getEspacio(fila - 1, columna)->getTipo() == ESPACIO){
                                 // Abajo
                                 actualizarPosicionMazmorra(fila, columna, new Espacio());
                                 getEspacio(fila, columna)->setTipo(SALIDA);
                                 getEspacio(fila, columna)->setInteractivo(true);
                                 abierta = true;
-                                cout << "GENERADA - Fila: " << fila << ", Columna: " << columna << endl;
                             }else if(getEspacio(fila, columna - 1)->getTipo() == ESPACIO){
                                 // Izquierda
                                 actualizarPosicionMazmorra(fila, columna, new Espacio());
                                 getEspacio(fila, columna)->setTipo(SALIDA);
                                 getEspacio(fila, columna)->setInteractivo(true);
                                 abierta = true;
-                                cout << "GENERADA - Fila: " << fila << ", Columna: " << columna << endl;
                             }
                         }catch(int error){
                             // El espacio inspeccionado excede los limites del array

@@ -1,0 +1,3 @@
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-release/CMakeFiles/Herz_El_Imparable.dir
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/usuario/Desktop/POO2021-1STQ/Herz_El_Imparable/cmake-build-release/CMakeFiles/rebuild_cache.dir
